@@ -3,7 +3,7 @@
     "checkJs": true,
     "allowJs": true,
     "lib": ["es2025", "dom"],
-    "types": ["mustache"],
+    "types": ["mustache", "jquery"], 
     "isolatedModules": true,
     "noEmit": true,
     "rootDir": ".",
