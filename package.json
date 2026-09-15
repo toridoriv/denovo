@@ -1,0 +1,23 @@
+{
+  "name": "denovo",
+  "version": "0.1.0",
+  "main": "index.html",
+  "license": "GPL-3.0-only",
+  "type": "commonjs",
+  "author": {
+    "name": "Victoria Rodriguez",
+    "email": "vrodriguezfe@icloud.com",
+    "url": "https://github.com/toridoriv"
+  },
+  "homepage": "https://github.com/toridoriv/denovo/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toridoriv/denovo.git"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.5.13",
+    "@types/mustache": "^4.2.6",
+    "prettier": "3.9.6",
+    "typescript": "^7.0.2"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "allowJs": true,
+    "lib": ["es2025", "dom"],
+    "types": ["mustache"],
+    "isolatedModules": true,
+    "noEmit": true,
+    "rootDir": ".",
+    "skipLibCheck": true,
+    "allowImportingTsExtensions": true
+  },
+  "include": ["public/**/*", "typings/**/*"],
+  "exclude": ["node_modules"]
+}
