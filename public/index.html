@@ -1,18 +1,40 @@
 <!doctype html>
 <html lang="es">
   <head>
+    <!-- ============================================ -->
+    <!-- META INFORMATION                             -->
+    <!-- ============================================ -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ============================================ -->
+    <!-- PAGE TITLE                                   -->
+    <!-- ============================================ -->
     <title>DeNovo</title>
+    <!-- ============================================ -->
+    <!-- FAVICON / APP ICONS                          -->
+    <!-- ============================================ -->
     <link
       rel="icon"
       href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🥚</text></svg>"
     />
+    <!-- ============================================ -->
+    <!-- FONTS                                 -->
+    <!-- ============================================ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&family=Lusitana:wght@700&family=Parkinsans:wght@300..800&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&family=Lusitana:wght@700&family=Parkinsans:wght@300..800&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+    <!-- ============================================ -->
+    <!-- SCRIPTS                                      -->
+    <!-- ============================================ -->
     <script
       src="https://code.jquery.com/jquery-4.0.0.min.js"
       integrity="sha256-OaVG6prZf4v69dPg6PhVattBXkcOWQB62pdZ3ORyrao="
       crossorigin="anonymous"
     ></script>
+    <!-- ============================================ -->
+    <!-- STYLESHEETS                                  -->
+    <!-- ============================================ -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -23,13 +45,12 @@
     <div id="content">
       <nav>
         <ul>
-          <li>
-            <a href="" data-i18n="nav.home"></a>
-            <a href="" data-i18n="nav.about"></a>
-            <a href="" data-i18n="nav.mission"></a>
-            <a href="" data-i18n="nav.donate"></a>
-          </li>
+          <li><a href="" data-i18n="nav.home"></a></li>
+          <li><a href="" data-i18n="nav.about"></a></li>
+          <li><a href="" data-i18n="nav.mission"></a></li>
         </ul>
+        <button type="submit" class="donate" data-i18n="nav.donate"></button>
+        <button type="button" class="burger" aria-label="toggle-navigation"><i class="fa-solid fa-bars"></i></button>
       </nav>
       <footer>
         <select

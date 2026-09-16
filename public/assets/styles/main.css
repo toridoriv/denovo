@@ -1,6 +1,126 @@
 @import url("./loader.css");
 
+.rethink-sans-fontone {
+  font-family: "Rethink Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.league-spartan-fonttwo {
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 :root {
   --loader-main-color: #f4bc29;
+}
+
+body {
+  font-family:
+    "Rethink Sans",
+    Georgia,
+    "Times New Roman",
+    Times,
+    serif;
+  margin: 0;
+}
+
+nav {
+  position: relative;
+  background-color: #f4bc29;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+nav ul {
+  position: absolute;
+  top: 100%;
+  margin: 0;
+  list-style: none;
+  list-style-type: none;
+  display: none;
+  background-color: #f9f7f6;
+  border-radius: 0 0 20px 20px;
+  font-size: 1rem;
+  width: 90%;
+}
+
+nav ul li {
+  border-top: 1px solid #404040;
+}
+
+nav ul li:first-child {
+  border-top: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #404040;
+  display: block;
+  padding: 1rem;
+}
+
+.donate {
+  margin: 0 1em;
+  border: 03px solid #404040;
+  padding: 8px;
+  font-size: 1rem;
+  border-radius: 25px;
+  background-color: #f9f7f6;
+  height: fit-content;
+}
+
+.donate:hover {
+  background-color: #404040;
+  color: #f9f7f6;
+}
+
+.burger {
+  font-size: 1.5rem;
+  color: #f9f7f6;
+  background-color: #404040;
+  border: 0;
+  border-radius: 30%;
+  margin: 0 0.5em;
+}
+
+@media screen and (width >= 800px) {
+  .burger {
+    display: none;
+  }
+
+  nav {
+    align-items: center;
+  }
+
+  nav ul {
+    display: flex;
+    top: 0;
+    position: relative;
+    width: fit-content;
+    background-color: #f4bc29;
+    height: 100%;
+  }
+
+  nav ul li {
+    border-top: none;
+    height: 100%;
+  }
+
+  nav ul li a {
+    height: 100%;
+    padding: 0 1em;
+    align-content: center;
+  }
+
+  nav ul li a:hover {
+    background-color: #f9f7f6;
+  }
+
 }
 
