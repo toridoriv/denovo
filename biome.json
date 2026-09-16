@@ -12,7 +12,7 @@
   },
   "files": {
     "ignoreUnknown": false,
-    "includes": ["**"]
+    "includes": ["**", "jsconfig.json"]
   },
   "linter": {
     "enabled": true,
@@ -39,6 +39,26 @@
       "quoteStyle": "double"
     },
     "globals": ["window", "document", "localStorage", "fetch", "$"]
+  },
+  "css": {
+    "formatter": {
+      "enabled": true
+    }
+  },
+  "html": {
+    "formatter": {
+      "enabled": true
+    }
+  },
+  "json": {
+    "formatter": {
+      "enabled": true,
+      "trailingCommas": "none"
+    },
+    "parser": {
+      "allowComments": true,
+      "allowTrailingCommas": true
+    }
   },
   "assist": {
     "enabled": true,

@@ -1,15 +1,15 @@
 {
   "compilerOptions": {
-    "checkJs": true,
+    "allowImportingTsExtensions": true,
     "allowJs": true,
-    "lib": ["es2025", "dom"],
-    "types": ["mustache", "jquery"],
+    "checkJs": true,
     "isolatedModules": true,
+    "lib": ["es2025", "dom"],
     "noEmit": true,
-    "rootDir": ".",
     "skipLibCheck": true,
-    "allowImportingTsExtensions": true
+    "target": "es2025",
+    "types": ["mustache", "jquery"]
   },
-  "include": ["public/**/*", "typings/**/*"],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules"],
+  "include": ["public", "typings"]
 }

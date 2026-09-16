@@ -29,10 +29,14 @@
   },
   "eslint.enable": false,
   "biome.enabled": true,
+  "biome.lsp.bin": "./node_modules/@biomejs/biome/bin/biome",
+  "biome.requireConfiguration": true,
   "github.copilot.chat.commitMessageGeneration.instructions": [
     { "file": ".github/COMMIT_MESSAGE_INSTRUCTIONS.md" }
   ],
-  "js/ts.preferences.importModuleSpecifierEnding": "js",
-  "js/ts.preferGoToSourceDefinition": true,
-  "js/ts.experimental.useTsgo": true
+  "js/ts.preferences.importModuleSpecifierEnding": "auto",
+  "js/ts.preferGoToSourceDefinition": false,
+  "js/ts.experimental.useTsgo": true,
+  "js/ts.tsdk.path": "./node_modules/typescript",
+  "js/ts.customConfigFileName": "jsconfig.json"
 }
