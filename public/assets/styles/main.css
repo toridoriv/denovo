@@ -51,16 +51,20 @@
   font-weight: bold;
   padding: 20%;
 }
+
 .card {
   border-radius: 18px;
   padding: 20%;
 }
+
 .title {
   font-family: "League Spartan", Verdana, Geneva, Tahoma, sans-serif;
 }
+
 .body-text {
   font-family: "Rethink Sans", Georgia, "Times New Roman", Times, serif;
 }
+
 body {
   margin: 0;
   font-family: "Rethink Sans", Georgia, "Times New Roman", Times, serif;
