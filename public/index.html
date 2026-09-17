@@ -20,10 +20,16 @@
     <!-- ============================================ -->
     <!-- FONTS                                 -->
     <!-- ============================================ -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&family=Lusitana:wght@700&family=Parkinsans:wght@300..800&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&family=Lusitana:wght@700&family=Parkinsans:wght@300..800&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&family=Lusitana:wght@700&family=Parkinsans:wght@300..800&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&family=Lusitana:wght@700&family=Parkinsans:wght@300..800&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap"
+      rel="stylesheet"
+    />
     <!-- ============================================ -->
     <!-- SCRIPTS                                      -->
     <!-- ============================================ -->
@@ -42,39 +48,49 @@
     <link rel="stylesheet" href="./assets/styles/main.css" />
   </head>
   <body>
-    <div id="content">
-      <nav>
-        <ul>
-          <li><a href="" data-i18n="nav.home"></a></li>
-          <li><a href="" data-i18n="nav.about"></a></li>
-          <li><a href="" data-i18n="nav.mission"></a></li>
-        </ul>
-        <button type="submit" class="donate" data-i18n="nav.donate"></button>
-        <button type="button" class="burger" aria-label="toggle-navigation"><i class="fa-solid fa-bars"></i></button>
-      </nav>
-      <footer>
-        <div class="company-info">
-            <img alt="wordmark" href="">
-            <p>Programa de incidencia corporativa para acelerar la adopción de tecnologías de sexado <i>in ovo</i> en el sector avícola.</p>
-            <div class="contact-info">
-                <p id="email">denovo@denovo.cl</p>
-            </div>
-            <select
-              id="language-selector"
-              name="languageselector"
-              value="Choose your Language"
-            >
-              <option value="es">Español</option>
-              <option value="en">English</option>
-            </select>
+    <nav>
+      <ul>
+        <li><a href="#/" data-i18n="nav.home"></a></li>
+        <li><a href="#/about" data-i18n="nav.about"></a></li>
+        <li><a href="#/mission" data-i18n="nav.mission"></a></li>
+      </ul>
+      <button type="submit" class="donate" data-i18n="nav.donate"></button>
+      <button type="button" class="burger" aria-label="toggle-navigation">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </nav>
+    <footer>
+      <div class="company-info">
+        <img alt="wordmark" href="" />
+        <p>
+          Programa de incidencia corporativa para acelerar la adopción de
+          tecnologías de sexado <i>in ovo</i> en el sector avícola.
+        </p>
+        <div class="contact-info">
+          <p id="email">denovo@denovo.cl</p>
         </div>
-        <div class="legal-info">
-            <p>DeNovo es un proyecto patrocinado fiscalmente por Anti Entropy (EIN: 88-0967420), una organización sin fines de lucro 501(c)(3). Las donaciones son deducibles de impuestos según lo permitido por la ley.</p>
-        </div>
-      </footer>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/mustache@4.2.0/mustache.min.js"></script>
+        <select
+          id="language-selector"
+          name="languageselector"
+          value="Choose your Language"
+        >
+          <option value="es">Español</option>
+          <option value="en">English</option>
+        </select>
+      </div>
+      <div class="legal-info">
+        <p>
+          DeNovo es un proyecto patrocinado fiscalmente por Anti Entropy (EIN:
+          88-0967420), una organización sin fines de lucro 501(c)(3). Las
+          donaciones son deducibles de impuestos según lo permitido por la ley.
+        </p>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/mustache@4.2.0/mustache.min.js"
+    ></script>
     <script src="./assets/scripts/translations.js"></script>
+    <script src="./assets/scripts/pages.js"></script>
     <script src="./assets/scripts/main.js"></script>
   </body>
 </html>

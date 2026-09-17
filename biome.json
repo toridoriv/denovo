@@ -47,7 +47,9 @@
   },
   "html": {
     "formatter": {
-      "enabled": true
+      "enabled": true,
+      "selfCloseVoidElements": "always",
+      "indentScriptAndStyle": true
     }
   },
   "json": {
