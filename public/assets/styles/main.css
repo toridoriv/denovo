@@ -18,6 +18,53 @@
   --loader-main-color: #f4bc29;
 }
 
+.bg-eggyolk-text-darkgrey {
+  background-color: #f4bc29;
+  color: #404040;
+}
+
+.bg-destiny-text-darkgrey {
+  background-color: #f8e8bf;
+  color: #404040;
+}
+
+.bg-darkgrey-text-almost-white {
+  background-color: #404040;
+  color: #f9f7f6;
+}
+
+.bg-platinum-text-darkgrey {
+  background-color: #e5e3e2;
+  color: #404040;
+}
+
+.bg-almost-white-text-darkgrey {
+  background-color: #f9f7f6;
+  color: #404040;
+}
+
+.button {
+  background-color: #f4bc29;
+  font-family: "League Spartan", Verdana, Geneva, Tahoma, sans-serif;
+  color: #404040;
+  border-radius: 30%;
+  font-weight: bold;
+  padding: 20%;
+}
+
+.card {
+  border-radius: 18px;
+  padding: 20%;
+}
+
+.title {
+  font-family: "League Spartan", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.body-text {
+  font-family: "Rethink Sans", Georgia, "Times New Roman", Times, serif;
+}
+
 body {
   margin: 0;
   font-family: "Rethink Sans", Georgia, "Times New Roman", Times, serif;
@@ -65,9 +112,9 @@ nav ul li a {
   margin: 0 1em;
   padding: 8px;
   font-size: 1rem;
+  border-radius: 18px;
   background-color: #f9f7f6;
   border: 03px solid #404040;
-  border-radius: 25px;
 }
 
 .donate:hover {
@@ -81,7 +128,7 @@ nav ul li a {
   font-size: 1.5rem;
   background-color: #404040;
   border: 0;
-  border-radius: 30%;
+  border-radius: 12px;
 }
 
 .company-info {
