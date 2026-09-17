@@ -10,6 +10,8 @@ declare global {
       "nav.about": string;
       "nav.mission": string;
       "nav.donate": string;
+      "footer.legal": string;
+      "footer.description": string;
     };
 
     type TranslationKey = keyof TranslationSchema;

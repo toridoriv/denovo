@@ -19,7 +19,8 @@
     "rules": {
       "preset": "recommended",
       "complexity": {
-        "useArrowFunction": "off"
+        "useArrowFunction": "off",
+        "noStaticOnlyClass": "off"
       },
       "suspicious": {
         "noConstEnum": "off",
