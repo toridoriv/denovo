@@ -17,6 +17,12 @@
     internalization.translateWebsiteWithSelected.bind(internalization),
   );
 
+  window.navigation.addEventListener("navigate", (event) => {
+    if (event.navigationType !== "traverse") return;
+
+    pageRouter.goTo(new URL(event.destination.url).hash);
+  });
+
   pageRouter.goTo(window.location.hash);
   pageRouter.setLocalAnchorHandlers();
 
