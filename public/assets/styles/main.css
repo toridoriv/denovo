@@ -19,12 +19,7 @@
 }
 
 body {
-  font-family:
-    "Rethink Sans",
-    Georgia,
-    "Times New Roman",
-    Times,
-    serif;
+  font-family: "Rethink Sans", Georgia, "Times New Roman", Times, serif;
   margin: 0;
 }
 
@@ -89,13 +84,13 @@ nav ul li a {
   margin: 0 0.5em;
 }
 
-.company-info{
+.company-info {
   background-color: #f4bc29;
   padding: 1rem;
 }
 
-.legal-info{
-  background-color: #E5E3E2;
+.legal-info {
+  background-color: #e5e3e2;
   padding: 1rem;
 }
 
@@ -106,7 +101,7 @@ nav ul li a {
 
 #language-selector {
   border: none;
-  background-color: #E5E3E2;
+  background-color: #e5e3e2;
   color: #404040;
   font-family: "League Spartan", Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1rem;
@@ -163,6 +158,4 @@ nav ul li a {
   .company-info > select {
     justify-self: end;
   }
-
 }
-
