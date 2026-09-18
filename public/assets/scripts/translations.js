@@ -6,10 +6,28 @@ const en = {
   "nav.about": "who we are",
   "nav.mission": "what we do",
   "nav.donate": "donate",
+  "header.overline": "Corporate advocacy program",
+  "header.title": "ACCELERATING THE ADOPTION OF IN-OVO SEXING IN CHILE",
+  "header.contact": "CONTACT US",
+  "header.mission": "LEARN MORE",
+  "intro.description":
+    "In Chile, around 12 million male chicks are discarded each year on the same day they are born, because they lack a productive function; this generates ethical, economic, and sustainability challenges.<br />In ovo sexing technologies allow identifying the sex of the embryo during incubation, offering a practical and effective solution to this problem.",
+  "challenge.title": "A structural challenge that can be solved",
+  "challenge.description":
+    "The egg industry uses selected lines of birds to produce eggs. In this system, for every female born for laying, a male is also born that does not lay eggs and is not profitable for meat production, so it is discarded at birth.<br />Currently, incubators use half of their productive capacity to incubate chicks that will never be part of a productive system until hatching. This implies a significant economic and sustainability cost, which can be avoided with in-ovo sexing.",
+  "stats.item1.title": "11.8 M",
+  "stats.item1.description": "male chicks discarded each year in Chile",
+  "stats.item2.title": "3.2%",
+  "stats.item2.description":
+    "annual growth rate of egg production<br>(2014–2024)",
+  "stats.item3.title": "R.M and Valparaíso",
+  "stats.item3.description":
+    "regions with the highest concentration of the problem",
+  "stats.source": "Source",
   "footer.legal":
     "DeNovo is a fiscally sponsored project of Anti Entropy (EIN: 88-0967420), a 501(c)(3) nonprofit organization. Donations are tax-deductible as allowed by law.",
   "footer.description":
-    "Corporate advocacy program to accelerate the adoption of <i>in ovo</i> sexing technologies in the poultry sector.",
+    "Corporate advocacy program to accelerate the adoption of <i>in-ovo</i> sexing technologies in the poultry industry.",
 };
 
 /**
@@ -20,6 +38,23 @@ const es = {
   "nav.about": "quiénes somos",
   "nav.mission": "qué hacemos",
   "nav.donate": "donar",
+  "header.overline": "Programa de incidencia corporativa",
+  "header.title": "ACELERANDO LA ADOPCIÓN DE SEXADO IN OVO EN CHILE",
+  "header.contact": "CONTÁCTANOS",
+  "header.mission": "CONOCE MÁS",
+  "intro.description":
+    "En Chile, cerca de 12 millones de pollitos macho son descartados cada año el mismo día que nacen, porque carecen de una función productiva; esto genera desafíos éticos, económicos y de sustentabilidad.<br />Las tecnologías de sexado in ovo permiten identificar el sexo del embrión durante la incubación, lo que ofrece una solución práctica y eficaz a este problema.",
+  "challenge.title": "Un desafío estructural que se puede resolver",
+  "challenge.description":
+    "La industria del huevo utiliza líneas de aves seleccionadas para producir huevos. En este sistema, por cada hembra nacida para postura, también nace un macho que no pone huevos y no es rentable para producción de carne, por lo que es descartado al nacer.<br />Actualmente, las incubadoras utilizan la mitad de su capacidad productiva en incubar hasta la eclosión pollitos que nunca serán parte de un sistema productivo. Esto implica un costo económico y de sustentabilidad significativo, que se puede evitar con el sexado in-ovo.",
+  "stats.item1.title": "11,8 M",
+  "stats.item1.description": "pollitos macho eliminados cada año en Chile",
+  "stats.item2.title": "3,2%",
+  "stats.item2.description":
+    "tasa de crecimiento anual de la producción<br>(2014–2024)",
+  "stats.item3.title": "R.M. y Valparaíso",
+  "stats.item3.description": "regiones con mayor concentración del problema",
+  "stats.source": "Fuente",
   "footer.legal":
     "DeNovo es un proyecto patrocinado fiscalmente por Anti Entropy (EIN: 88-0967420), una organización sin fines de lucro 501(c)(3). Las donaciones son deducibles de impuestos según lo permitido por la ley.",
   "footer.description":
@@ -150,7 +185,11 @@ class Internationalization {
    * @returns {string} The translation corresponding to the given key, or a placeholder if the translation is missing.
    */
   getTranslation(key, schema = this.translationSchema) {
-    return schema[key] || "<missing translation>";
+    const translation = schema[key];
+
+    if (isNotNullish(translation)) return translation;
+
+    return "lorem ipsum";
   }
 
   /**

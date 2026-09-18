@@ -1,5 +1,21 @@
 @import url("./loader.css");
 
+body {
+  margin: 0;
+  min-height: 100dvh;
+
+  /* 1. Turn body into a flexbox container */
+  display: flex;
+
+  /* 2. Stack children vertically instead of horizontally */
+  flex-direction: column;
+}
+
+main {
+  /* 3. Force the main section to grow and consume all empty space */
+  flex-grow: 1;
+}
+
 .rethink-sans-fontone {
   font-style: normal;
   font-weight: 400;
@@ -47,9 +63,13 @@
   background-color: #f4bc29;
   font-family: "League Spartan", Verdana, Geneva, Tahoma, sans-serif;
   color: #404040;
-  border-radius: 30%;
+  border-radius: 30px;
   font-weight: bold;
-  padding: 20%;
+  padding: 20px;
+}
+
+a.button {
+  text-decoration: none;
 }
 
 .card {
