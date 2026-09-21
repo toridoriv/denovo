@@ -6,6 +6,7 @@ body {
 
   /* 1. Turn body into a flexbox container */
   display: flex;
+  width: 100dvw;;
 
   /* 2. Stack children vertically instead of horizontally */
   flex-direction: column;
@@ -59,6 +60,25 @@ main {
   color: #404040;
 }
 
+.hero {
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+
+  h1 {
+    font-family: "League Spartan", Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10;
+  }
+  
+  h2 {
+    font-family: "Rethink Sans", Georgia, "Times New Roman", Times, serif;
+    margin: 0;
+  }
+}
+
 .button {
   background-color: #f4bc29;
   font-family: "League Spartan", Verdana, Geneva, Tahoma, sans-serif;
@@ -66,6 +86,23 @@ main {
   border-radius: 30px;
   font-weight: bold;
   padding: 20px;
+  width: fit-content;
+  margin: 10px 0;
+}
+
+.button:hover {
+    animation: pulse 1s ease-out;
+    box-shadow: 0 0 20px rgba(244, 188, 41, 0.5);
+}
+@keyframes pulse {
+    0% { box-shadow: 0 0 0 0 rgba(244, 188, 41, 0.5); }
+    100% { box-shadow: 0 0 0 16px rgba(244, 188, 41, 0); }
+}
+
+.button:active {
+  background-color: #404040;
+  color: #f4bc29;
+  border:2px solid #f4bc29
 }
 
 a.button {
@@ -225,5 +262,30 @@ nav ul li a {
 
   .company-info > select {
     justify-self: end;
+  }
+
+  .hero {
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: start;
+  align-items: flex-start;
+
+    h1 {
+      font-family: "League Spartan", Verdana, Geneva, Tahoma, sans-serif;
+      margin: 10;
+      flex-basis: 100%;
+    }
+    
+    h2 {
+      font-family: "Rethink Sans", Georgia, "Times New Roman", Times, serif;
+      margin: 0;
+      flex-basis: 100%;
+    }
+
+    .button {
+      margin: 0 1rem 0 0;
+    }
   }
 }
