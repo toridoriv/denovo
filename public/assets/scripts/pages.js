@@ -5,15 +5,16 @@ const home = `
   <a class="button" href="#/contact" data-i18n="header.contact"></a>
   <a class="button" href="#/mission" data-i18n="header.mission"></a>
 </header>
-<section>
-  <article id="intro">
+<section class="bg-almost-white-text-darkgrey main-section">
+  <article id="intro" class="intro">
     <p data-i18n="intro.description"></p>
+    <div id="decorative-image"></div>
   </article>
-  <article id="challenge">
+  <article id="challenge" class="bg-destiny-text-darkgrey card">
     <h2 data-i18n="challenge.title"></h2>
     <p data-i18n="challenge.description"></p>
   </article>
-  <section id="stats">
+  <section id="stats" class="triplet">
     <figure>
       <h3 data-i18n="stats.item1.title"></h3>
       <p data-i18n="stats.item1.description"></p>

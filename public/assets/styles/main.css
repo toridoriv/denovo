@@ -109,15 +109,51 @@ a.button {
   text-decoration: none;
 }
 
+.main-section {
+  font-family: "League Spartan", Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+}
+.intro {
+  margin: 0 0 1rem 0;
+    p {
+    margin: 0;
+    padding: 2rem;
+  }
+      #decorative-image {
+      margin: 0 0 0 2rem;
+    }
+
+    #decorative-image {
+    background-image: url("../images/robotarm-000.jpeg");
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    border-radius: 0 0 0 20%;
+  }
+}
+
 .card {
   border-radius: 18px;
-  padding: 20%;
+  padding: 10%;
 }
 
 .title {
   font-family: "League Spartan", Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.triplet {
+  align-items: center;
+  
+  figure {
+    background-color: #e5e3e2;
+    padding: 1rem;
+    border-radius: 18px;
+  }
+  figcaption {
+    text-align: center;
+  }
+}
 .body-text {
   font-family: "Rethink Sans", Georgia, "Times New Roman", Times, serif;
 }
@@ -212,6 +248,7 @@ nav ul li a {
 }
 
 @media screen and (width >= 800px) {
+
   .burger {
     display: none;
   }
@@ -283,9 +320,40 @@ nav ul li a {
       margin: 0;
       flex-basis: 100%;
     }
+  }
 
-    .button {
-      margin: 0 1rem 0 0;
+  .main-section {
+    font-size: 1.5rem;
+  }
+  .button {
+    margin: 0 1rem 0 0;
+  }
+
+  .intro {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    p {
+      grid-column: span 3;
+    }
+  }
+  .card {
+  border-radius: 18px;
+  padding: 2rem;
+  margin: 2rem 10rem;
+}
+  .triplet {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  
+    figure {
+      background-color: #e5e3e2;
+      padding: 1rem;
+      border-radius: 18px;
+    }
+    figcaption {
+      text-align: center;
     }
   }
 }
