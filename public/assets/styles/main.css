@@ -145,16 +145,34 @@ a.button {
 
 .triplet {
   align-items: center;
+  z-index: 0;
+  position: relative;
   
   figure {
     background-color: #e5e3e2;
-    padding: 1rem;
     border-radius: 18px;
+    padding: 1rem;
+    position: relative;
+
+    div {
+      position: absolute;
+      background-image: url("../images/chic-000.jpg");
+      background-repeat: no-repeat;
+      background-size: contain;
+      width: 250px;
+      height: 250px;
+      top: -80px;
+      border-radius: 18px;
+      right: -30px;
+      z-index: -1;
+    }
+
   }
   figcaption {
     text-align: center;
   }
 }
+
 .body-text {
   font-family: "Rethink Sans", Georgia, "Times New Roman", Times, serif;
 }

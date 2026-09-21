@@ -15,7 +15,8 @@ const home = `
     <p data-i18n="challenge.description"></p>
   </article>
   <section id="stats" class="triplet">
-    <figure>
+    <figure class="stat-top">
+      <div></div>
       <h3 data-i18n="stats.item1.title"></h3>
       <p data-i18n="stats.item1.description"></p>
     </figure>
