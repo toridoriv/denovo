@@ -13,18 +13,29 @@ const home = `
     <h2 data-i18n="challenge.title"></h2>
     <p data-i18n="challenge.description"></p>
   </article>
-  <section id="stats">
-    <figure>
-      <h3 data-i18n="stats.item1.title"></h3>
-      <p data-i18n="stats.item1.description"></p>
+  <section id="stats" class="row">
+    <figure class="stats-card column">
+      <div class="image">
+        <img src="assets/images/chic-000.jpg" alt="" />
+      </div>
+      <div class="content">
+        <h3 data-i18n="stats.item1.title"></h3>
+        <p data-i18n="stats.item1.description"></p>
+      </div>
     </figure>
-    <figure>
-      <h3 data-i18n="stats.item2.title"></h3>
-      <p data-i18n="stats.item2.description"></p>
+    <figure class="stats-card column">
+      <div class="image"></div>
+      <div class="content">
+        <h3 data-i18n="stats.item2.title"></h3>
+        <p data-i18n="stats.item2.description"></p>
+      </div>
     </figure>
-    <figure>
-      <h3 data-i18n="stats.item3.title"></h3>
-      <p data-i18n="stats.item3.description"></p>
+    <figure class="stats-card column">
+      <div class="image"></div>
+      <div class="content">
+        <h3 data-i18n="stats.item3.title"></h3>
+        <p data-i18n="stats.item3.description"></p>
+      </div>
     </figure>
     <figcaption><span data-i18n="stats.source"></span>: ChileHuevos 2025, INE 2025</figcaption>
   </section>
