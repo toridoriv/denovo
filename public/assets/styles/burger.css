@@ -8,8 +8,7 @@
 }
 
 @media screen and (width >= 800px) {
-    
-    .burger {
+  .burger {
     display: none;
   }
 }

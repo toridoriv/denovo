@@ -36,7 +36,7 @@ nav ul li a {
 }
 
 @media screen and (width >= 800px) {
-    nav {
+  nav {
     align-items: center;
   }
 

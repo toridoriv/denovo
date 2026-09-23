@@ -1,14 +1,14 @@
 .intro {
   margin: 0 0 1rem 0;
-    p {
+  p {
     margin: 0;
     padding: 2rem;
   }
-      #decorative-image {
-      margin: 0 0 0 2rem;
-    }
+  #decorative-image {
+    margin: 0 0 0 2rem;
+  }
 
-    #decorative-image {
+  #decorative-image {
     background-image: url("../images/robotarm-000.jpeg");
     height: 200px;
     background-repeat: no-repeat;
@@ -19,12 +19,12 @@
 }
 
 @media screen and (width >= 800px) {
-    .intro {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+  .intro {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 
-        p {
-        grid-column: span 3;
-        }
+    p {
+      grid-column: span 3;
     }
+  }
 }

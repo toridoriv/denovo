@@ -1,35 +1,39 @@
 #cta {
-    background-color: #404040;
-    display: grid;
+  background-color: #404040;
+  display: grid;
 
-    article {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+  article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-    article img {
-        width:200px;
-        border-radius: 20%;
-    }
+  article img {
+    width: 200px;
+    border-radius: 20%;
+  }
 
-    button {
-        padding: 1rem;
-    }
+  button {
+    padding: 1rem;
+  }
 }
 
 .description {
-    margin: 0 0 1rem 0; 
+  margin: 0 0 1rem 0;
 
-    * {
+  * {
     margin: 0;
     padding: 1rem 2rem;
-    }
-      #decorative-image {
-        margin: 0 0 0 2rem;
-     }
+  }
 
-    #decorative-image {
+  i {
+    padding: 0;
+  }
+  #decorative-image {
+    margin: 0 0 0 2rem;
+  }
+
+  #decorative-image {
     background-image: url("../images/robotarm-000.jpeg");
     height: 200px;
     background-repeat: no-repeat;
@@ -40,28 +44,28 @@
 }
 
 @media screen and (width >= 800px) {
-    #cta {
-        article {
-            display: grid;
-            grid-template-rows: repeat(3, auto);
-            gap: 8px;
+  #cta {
+    article {
+      display: grid;
+      grid-template-rows: repeat(3, auto);
+      gap: 8px;
 
-            img {
-                grid-column: 1;
-                grid-row: 1 / span 3;
-            }
+      img {
+        grid-column: 1;
+        grid-row: 1 / span 3;
+      }
 
-            button {
-                margin-left: 2rem;
-            }
-        }
+      button {
+        margin-left: 2rem;
+      }
     }
-    .description {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .description {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 
-        p {
-        grid-column: span 3;
-        }
+    p {
+      grid-column: span 3;
     }
+  }
 }

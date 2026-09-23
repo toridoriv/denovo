@@ -22,7 +22,7 @@
 }
 
 @media screen and (width >= 800px) {
-    .company-info {
+  .company-info {
     display: grid;
     grid-auto-flow: column;
     grid-template-columns: 50% 50%;

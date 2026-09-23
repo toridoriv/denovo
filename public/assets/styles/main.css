@@ -6,7 +6,7 @@ body {
 
   /* 1. Turn body into a flexbox container */
   display: flex;
-  width: 100dvw;;
+  width: 100dvw;
 
   /* 2. Stack children vertically instead of horizontally */
   flex-direction: column;
@@ -76,7 +76,6 @@ body {
 }
 
 @media screen and (width >= 800px) {
-
   .main-section {
     font-size: 1.5rem;
   }
