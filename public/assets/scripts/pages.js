@@ -41,9 +41,16 @@ const home = `
   </section>
 </section>
 <section id="cta">
-  <article>
+  <article class="bg-darkgrey-text-almost-white description">
+    <img src="assets/images/eggs-001.jpg" alt="" />
+    <h3 data-i18n="cta.item1.title"></h3>
+    <p data-i18n="cta.item1.description"></p>
+    <a data-i18n="cta.discover" class="button"></a>
   </article>
-  <article>
+  <article class="bg-almost-white-text-darkgrey card">
+    <h3 data-i18n="cta.item2.title"></h3>
+    <p data-i18n="cta.item2.description"></p>
+    <a data-i18n="cta.donate" class="button"></a>
   </article>
 </section>`;
 

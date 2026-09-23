@@ -24,6 +24,12 @@ declare global {
       "stats.item3.title": string;
       "stats.item3.description": string;
       "stats.source": string;
+      "cta.item1.title": string;
+      "cta.item1.description": string;
+      "cta.discover": string;
+      "cta.item2.title": string;
+      "cta.item2.description": string;
+      "cta.donate": string;
       "footer.legal": string;
       "footer.description": string;
     };
