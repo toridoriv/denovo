@@ -37,7 +37,7 @@ const home = `
         <p data-i18n="stats.item3.description"></p>
       </div>
     </figure>
-    <figcaption><span data-i18n="stats.source"></span>: ChileHuevos 2025, INE 2025</figcaption>
+    <figcaption class="centered"><span data-i18n="stats.source"></span>: ChileHuevos 2025, INE 2025</figcaption>
   </section>
 </section>
 <section id="cta">

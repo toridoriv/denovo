@@ -3,6 +3,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
+  justify-content: center;
   
   * {
     box-sizing: border-box;
@@ -81,7 +82,7 @@
         align-items: center;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-
+        justify-items: stretch;
         figure {
             height: 600px;
         }
@@ -129,5 +130,10 @@
                 border-radius: 0;
                 text-align: center;
             }
+    }
+
+    .centered {
+        text-align: center;
+        grid-column: 2;
     }
 }
