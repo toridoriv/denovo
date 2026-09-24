@@ -78,11 +78,52 @@ const es = {
 };
 
 /**
+ * @type {i18n.TranslationSchema}
+ */
+const pt = {
+  "nav.home": "home",
+  "nav.about": "quem somos",
+  "nav.mission": "que fazemos",
+  "nav.donate": "doar",
+  "header.overline": "Programa de outreach corporativo",
+  "header.title":
+    "ACELERANDO A ADOÇÃO DA SEXAGEM <i>IN OVO</i> NA INDÚSTRIA AVÍCOLA",
+  "header.contact": "FALE CONOSCO",
+  "header.mission": "CONHEÇA MAIS",
+  "intro.description":
+    "A indústria de ovos enfrenta um desafio estrutural a cada ano: 50% dos pintinhos incubados para obter galinhas poedeiras são machos. Esses pintinhos são identificados manualmente e descartados logo após nascerem, pois não botam ovos e pertencem a linhagens genéticas que não são rentáveis para a produção de carne.</br>Isso significa que os incubatórios dedicam infraestrutura, espaço, energia e mão de obra especializada a um processo que não gera benefícios diretos. Além disso, essa prática apresenta desafios crescentes em termos de sustentabilidade, bem-estar animal e percepção pública.",
+  "challenge.title": "Um desafio estrutural que pode ser resolvido",
+  "challenge.description":
+    "As tecnologias de sexagem <i>in ovo</i> solucionam essa problemática ao identificar o sexo do embrião ainda durante a incubação e removê-lo precocemente se for macho. Isso melhora a eficiência produtiva otimizando recursos, cria novas oportunidades de manejo, reduz o impacto ambiental, evita o sofrimento animal e fortalece o posicionamento do setor diante das novas exigências do mercado.",
+  "stats.item1.title": "11,8 M",
+  "stats.item1.description": "pintinhos machos descartados cada ano no Chile",
+  "stats.item2.title": "3,2%",
+  "stats.item2.description":
+    "taxa de crescimiento anual da produção (2014–2024)",
+  "stats.item3.title": "R.M. e Valparaíso",
+  "stats.item3.description": "regiões com a maior concentração do problema",
+  "stats.source": "Fonte",
+  "cta.item1.title": "O que fazemos?",
+  "cta.item1.description":
+    "Trabalhamos com incubatórios, produtores, empresas de varejo e fornecedores de tecnologia para identificar e superar as barreiras para sua adoção.</br>Conectamos atores nacionais e internacionais, promovendo a formação de parcerias estratégicas que potencializem a rentabilidade da implementação dessas tecnologias. Também fornecemos informações técnicas, estudos de mercado e aprendizados de outros mercados que já as adotaram e demonstraram sua viabilidade.",
+  "cta.discover": "Descobra a solução",
+  "cta.item2.title": "Apoie-nos",
+  "cta.item2.description":
+    "Somos uma organização independente, sem fins lucrativos e sem vínculos comerciais com nenhuma das tecnologias disponíveis. Nosso compromisso é acelerar a transição para a sexagem <i>in ovo</i> da maneira mais efetiva e confiável.",
+  "cta.donate": "Doar",
+  "footer.legal":
+    "DeNovo é um projeto patrocinado fiscalmente por Anti Entropy (EIN: 88-0967420), uma organização sem fins lucrativos 501(c)(3). As doações poder ser deduzidas de imposto conforme permitido por lei.",
+  "footer.description":
+    "Programa de outreach corporativo para acelerar a adoção de tecnologias de sexagem <i>in ovo</i> na indústria avícola.",
+};
+
+/**
  * @type {Record<i18n.AvailableLanguage, i18n.TranslationSchema>}
  */
 const TRANSLATIONS = Object.freeze({
   en,
   es,
+  pt,
 });
 
 /**

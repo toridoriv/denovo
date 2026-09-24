@@ -36,7 +36,7 @@ declare global {
 
     type TranslationKey = keyof TranslationSchema;
 
-    type AvailableLanguage = "en" | "es";
+    type AvailableLanguage = "en" | "es" | "pt";
   }
 }
 
