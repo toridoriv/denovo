@@ -1,0 +1,51 @@
+.button {
+  background-color: #f4bc29;
+  font-family: "League Spartan", Verdana, Geneva, Tahoma, sans-serif;
+  color: #404040;
+  border-radius: 30px;
+  font-weight: bold;
+  padding: 20px;
+  width: fit-content;
+  margin: 10px 0;
+  text-decoration: none;
+}
+
+.button:hover {
+  animation: pulse 1s ease-out;
+  box-shadow: 0 0 20px rgba(244, 188, 41, 0.5);
+}
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(244, 188, 41, 0.5);
+  }
+  100% {
+    box-shadow: 0 0 0 16px rgba(244, 188, 41, 0);
+  }
+}
+
+.button:active {
+  background-color: #404040;
+  color: #f4bc29;
+  border: 2px solid #f4bc29;
+}
+
+.donate {
+  height: fit-content;
+  margin: 0 1em;
+  padding: 8px;
+  font-size: 1rem;
+  border-radius: 18px;
+  background-color: #f9f7f6;
+  border: 03px solid #404040;
+}
+
+.donate:hover {
+  color: #f9f7f6;
+  background-color: #404040;
+}
+
+@media screen and (width >= 800px) {
+  .button {
+    margin: 0 1rem 0 0;
+  }
+}

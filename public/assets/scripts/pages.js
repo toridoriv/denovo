@@ -1,38 +1,49 @@
 const home = `
-<header>
-  <h2 class="title" data-i18n="header.overline"></h2>
-  <h1 class="title" data-i18n="header.title"></h1>
+<header class="bg-darkgrey-text-almost-white hero">
+  <h2 data-i18n="header.overline"></h2>
+  <h1 data-i18n="header.title"></h1>
   <a class="button" href="#/contact" data-i18n="header.contact"></a>
   <a class="button" href="#/mission" data-i18n="header.mission"></a>
 </header>
-<section>
-  <article id="intro">
+<section class="bg-almost-white-text-darkgrey main-section">
+  <article id="intro" class="intro">
     <p data-i18n="intro.description"></p>
+    <div id="decorative-image"></div>
   </article>
-  <article id="challenge">
+  <article id="challenge" class="bg-destiny-text-darkgrey card">
     <h2 data-i18n="challenge.title"></h2>
     <p data-i18n="challenge.description"></p>
   </article>
-  <section id="stats">
-    <figure>
+  <section id="stats" class="stats">
+    <figure class="stats-card">
+      <img src="assets/images/chic-000.jpg" alt="" />
       <h3 data-i18n="stats.item1.title"></h3>
       <p data-i18n="stats.item1.description"></p>
     </figure>
-    <figure>
+    <figure class="stats-card">
+      <img src="assets/images/eggs-000.jpg">
       <h3 data-i18n="stats.item2.title"></h3>
       <p data-i18n="stats.item2.description"></p>
     </figure>
-    <figure>
+    <figure class="stats-card">
+      <img src="assets/images/map-000.png" alt="" />
       <h3 data-i18n="stats.item3.title"></h3>
       <p data-i18n="stats.item3.description"></p>
     </figure>
-    <figcaption><span data-i18n="stats.source"></span>: ChileHuevos 2025, INE 2025</figcaption>
+    <figcaption class="centered"><span data-i18n="stats.source"></span>: ChileHuevos 2025, INE 2025</figcaption>
   </section>
 </section>
 <section id="cta">
-  <article>
+  <article class="bg-darkgrey-text-almost-white description">
+    <img src="assets/images/eggs-001.jpg" alt="" />
+    <h3 data-i18n="cta.item1.title"></h3>
+    <p data-i18n="cta.item1.description"></p>
+    <a data-i18n="cta.discover" class="button"></a>
   </article>
-  <article>
+  <article class="bg-almost-white-text-darkgrey card">
+    <h3 data-i18n="cta.item2.title"></h3>
+    <p data-i18n="cta.item2.description"></p>
+    <a data-i18n="cta.donate" class="button"></a>
   </article>
 </section>`;
 

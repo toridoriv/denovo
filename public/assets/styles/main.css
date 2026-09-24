@@ -6,6 +6,7 @@ body {
 
   /* 1. Turn body into a flexbox container */
   display: flex;
+  width: 100dvw;
 
   /* 2. Stack children vertically instead of horizontally */
   flex-direction: column;
@@ -58,29 +59,13 @@ main {
   background-color: #f9f7f6;
   color: #404040;
 }
-
-.button {
-  background-color: #f4bc29;
+.main-section {
   font-family: "League Spartan", Verdana, Geneva, Tahoma, sans-serif;
-  color: #404040;
-  border-radius: 30px;
-  font-weight: bold;
-  padding: 20px;
+  font-size: 1rem;
 }
-
-a.button {
-  text-decoration: none;
-}
-
-.card {
-  border-radius: 18px;
-  padding: 20%;
-}
-
 .title {
   font-family: "League Spartan", Verdana, Geneva, Tahoma, sans-serif;
 }
-
 .body-text {
   font-family: "Rethink Sans", Georgia, "Times New Roman", Times, serif;
 }
@@ -90,140 +75,8 @@ body {
   font-family: "Rethink Sans", Georgia, "Times New Roman", Times, serif;
 }
 
-nav {
-  position: relative;
-  display: flex;
-  height: 4rem;
-  align-items: center;
-  justify-content: end;
-  background-color: #f4bc29;
-}
-
-nav ul {
-  position: absolute;
-  top: 100%;
-  display: none;
-  width: 90%;
-  margin: 0;
-  font-size: 1rem;
-  list-style: none;
-  list-style-type: none;
-  background-color: #f9f7f6;
-  border-radius: 0 0 20px 20px;
-}
-
-nav ul li {
-  border-top: 1px solid #404040;
-}
-
-nav ul li:first-child {
-  border-top: none;
-}
-
-nav ul li a {
-  display: block;
-  padding: 1rem;
-  color: #404040;
-  text-decoration: none;
-}
-
-.donate {
-  height: fit-content;
-  margin: 0 1em;
-  padding: 8px;
-  font-size: 1rem;
-  border-radius: 18px;
-  background-color: #f9f7f6;
-  border: 03px solid #404040;
-}
-
-.donate:hover {
-  color: #f9f7f6;
-  background-color: #404040;
-}
-
-.burger {
-  margin: 0 0.5em;
-  color: #f9f7f6;
-  font-size: 1.5rem;
-  background-color: #404040;
-  border: 0;
-  border-radius: 12px;
-}
-
-.company-info {
-  padding: 1rem;
-  background-color: #f4bc29;
-}
-
-.legal-info {
-  padding: 1rem;
-  background-color: #e5e3e2;
-}
-
-.legal-info p {
-  margin: 0;
-  font-size: 0.6rem;
-}
-
-#language-selector {
-  color: #404040;
-  font-size: 1rem;
-  font-family: "League Spartan", Verdana, Geneva, Tahoma, sans-serif;
-  background-color: #e5e3e2;
-  border: none;
-}
-
 @media screen and (width >= 800px) {
-  .burger {
-    display: none;
-  }
-
-  nav {
-    align-items: center;
-  }
-
-  nav ul {
-    position: relative;
-    top: 0;
-    display: flex;
-    width: fit-content;
-    height: 100%;
-    background-color: #f4bc29;
-  }
-
-  nav ul li {
-    height: 100%;
-    border-top: none;
-  }
-
-  nav ul li a {
-    height: 100%;
-    padding: 0 1em;
-    align-content: center;
-  }
-
-  nav ul li a:hover {
-    background-color: #f9f7f6;
-  }
-
-  .company-info {
-    display: grid;
-    grid-auto-flow: column;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50%;
-  }
-
-  .company-info > * {
-    width: fit-content;
-    height: fit-content;
-  }
-
-  .contact-info {
-    justify-self: end;
-  }
-
-  .company-info > select {
-    justify-self: end;
+  .main-section {
+    font-size: 1.5rem;
   }
 }

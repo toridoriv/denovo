@@ -24,6 +24,14 @@ const en = {
   "stats.item3.description":
     "regions with the highest concentration of the problem",
   "stats.source": "Source",
+  "cta.item1.title": "What We Do",
+  "cta.item1.description":
+    "We work jointly with incubators, producers, retail and technology suppliers in identifying and overcoming barriers for the adoption of in-ovo sexing.</br>We put national and international players in touch to facilitate the creation of strategic alliances that promote the cost-effectiveness of adopting these technologies. We also provide technical information, market research and lessons learned in other markets where these technologies have already been adopted and have proven their viability.",
+  "cta.discover": "Discover the solution",
+  "cta.item2.title": "Support Us",
+  "cta.item2.description":
+    "We are an independent non-profit organization with no commercial ties to these technologies. Our commitment is accelerating the transition towards in-ovo sexing, effectively and reliably.",
+  "cta.donate": "Donate",
   "footer.legal":
     "DeNovo is a fiscally sponsored project of Anti Entropy (EIN: 88-0967420), a 501(c)(3) nonprofit organization. Donations are tax-deductible as allowed by law.",
   "footer.description":
@@ -55,6 +63,14 @@ const es = {
   "stats.item3.title": "R.M. y Valparaíso",
   "stats.item3.description": "regiones con mayor concentración del problema",
   "stats.source": "Fuente",
+  "cta.item1.title": "¿Qué hacemos?",
+  "cta.item1.description":
+    "Trabajamos con incubadoras, productores, retail y proveedores tecnológicos para identificar y superar las barreras que dificultan la adopción del sexado in ovo. </br>Conectamos a actores nacionales e internacionales, facilitando la creación de alianzas estratégicas que potencien la rentabilidad de adoptar estas tecnologías. También entregamos información técnica, estudios de mercado y lecciones aprendidas en otros mercados que ya las han adoptado y demostrado su viabilidad.",
+  "cta.discover": "Descubre la solución",
+  "cta.item2.title": "Apóyanos",
+  "cta.item2.description":
+    "Somos una organización independiente, sin fines de lucro y sin vinculación comercial con las distintas tecnologías. Nuestro compromiso es acelerar la transición hacia el sexado in ovo de la manera más efectiva y confiable.",
+  "cta.donate": "Donar",
   "footer.legal":
     "DeNovo es un proyecto patrocinado fiscalmente por Anti Entropy (EIN: 88-0967420), una organización sin fines de lucro 501(c)(3). Las donaciones son deducibles de impuestos según lo permitido por la ley.",
   "footer.description":
