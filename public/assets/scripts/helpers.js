@@ -80,3 +80,12 @@ class StorageWrapper {
 function isNotNullish(value) {
   return value !== undefined && value !== null;
 }
+
+/**
+ * Sets up the burger menu toggle functionality for navigation links.
+ */
+function setBurgerMenu() {
+  $(".burger").on("click", function () {
+    $(this).parent().find(".nav-links").slideToggle("slow");
+  });
+}

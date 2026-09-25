@@ -25,6 +25,7 @@
 
   pageRouter.goTo(window.location.hash);
   pageRouter.setLocalAnchorHandlers();
+  setBurgerMenu();
 
   function stopLoading() {
     $("#preloader").hide(1000);
