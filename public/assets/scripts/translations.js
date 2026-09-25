@@ -7,14 +7,15 @@ const en = {
   "nav.mission": "what we do",
   "nav.donate": "donate",
   "header.overline": "Corporate advocacy program",
-  "header.title": "ACCELERATING THE ADOPTION OF IN-OVO SEXING IN CHILE",
+  "header.title":
+    "ACCELERATING THE ADOPTION OF IN-OVO SEXING IN THE POULTRY INDUSTRY",
   "header.contact": "CONTACT US",
   "header.mission": "LEARN MORE",
   "intro.description":
-    "In Chile, around 12 million male chicks are discarded each year on the same day they are born, because they lack a productive function; this generates ethical, economic, and sustainability challenges.<br />In ovo sexing technologies allow identifying the sex of the embryo during incubation, offering a practical and effective solution to this problem.",
+    "Each year, the egg industry faces a structural challenge: 50% of chicks incubated to be 'layer' chickens are male. These chicks are determined manually and discarded immediately after birth since they are unable to lay eggs and belong to a genetic breed that is unprofitable for the production of meat.<br />Incubators must allocate infrastructure, space, power and specialized labor to a process that yields them no direct benefits. The practice also presents rising challenges in matters of sustainability, animal welfare and public perception.",
   "challenge.title": "A structural challenge that can be solved",
   "challenge.description":
-    "The egg industry uses selected lines of birds to produce eggs. In this system, for every female born for laying, a male is also born that does not lay eggs and is not profitable for meat production, so it is discarded at birth.<br />Currently, incubators use half of their productive capacity to incubate chicks that will never be part of a productive system until hatching. This implies a significant economic and sustainability cost, which can be avoided with in-ovo sexing.",
+    "In-ovo sexing technologies solve this problem by allowing identification of the embrio and its early removal during incubation. This innovation improves production efficiency by optimizing resources, creates new handling opportunities, reduces environmental impact, prevents animal suffering and strengthens the posicion of the sector in the face of new market demands.",
   "stats.item1.title": "11.8 M",
   "stats.item1.description": "male chicks discarded each year in Chile",
   "stats.item2.title": "3.2%",
@@ -35,7 +36,7 @@ const en = {
   "footer.legal":
     "DeNovo is a fiscally sponsored project of Anti Entropy (EIN: 88-0967420), a 501(c)(3) nonprofit organization. Donations are tax-deductible as allowed by law.",
   "footer.description":
-    "Corporate advocacy program to accelerate the adoption of <i>in-ovo</i> sexing technologies in the poultry industry.",
+    "Corporate advocacy program to accelerate the adoption of in-ovo sexing technologies in the poultry industry.",
 };
 
 /**
@@ -47,14 +48,15 @@ const es = {
   "nav.mission": "qué hacemos",
   "nav.donate": "donar",
   "header.overline": "Programa de incidencia corporativa",
-  "header.title": "ACELERANDO LA ADOPCIÓN DE SEXADO IN OVO EN CHILE",
+  "header.title":
+    "ACELERANDO LA ADOPCIÓN DE SEXADO <i>IN OVO</i> EN LA INDUSTRIA AVÍCOLA",
   "header.contact": "CONTÁCTANOS",
   "header.mission": "CONOCE MÁS",
   "intro.description":
-    "En Chile, cerca de 12 millones de pollitos macho son descartados cada año el mismo día que nacen, porque carecen de una función productiva; esto genera desafíos éticos, económicos y de sustentabilidad.<br />Las tecnologías de sexado in ovo permiten identificar el sexo del embrión durante la incubación, lo que ofrece una solución práctica y eficaz a este problema.",
+    "La industria del huevo enfrenta cada año un desafío estructural: el 50% de los polluelos incubados para obtener gallinas ponedoras son machos. Estos pollitos son identificados manualmente y descartados recién nacidos, pues no ponen huevos y pertenecen a líneas genéticas que no son rentables para la producción de carne. </br>Para las empresas incubadoras, esto significa destinar infraestructura, espacio, energía y mano de obra especializada en un proceso que no genera un beneficio directo. Esta práctica también plantea desafíos crecientes en materia de sostenibilidad , bienestar animal y percepción pública.",
   "challenge.title": "Un desafío estructural que se puede resolver",
   "challenge.description":
-    "La industria del huevo utiliza líneas de aves seleccionadas para producir huevos. En este sistema, por cada hembra nacida para postura, también nace un macho que no pone huevos y no es rentable para producción de carne, por lo que es descartado al nacer.<br />Actualmente, las incubadoras utilizan la mitad de su capacidad productiva en incubar hasta la eclosión pollitos que nunca serán parte de un sistema productivo. Esto implica un costo económico y de sustentabilidad significativo, que se puede evitar con el sexado in-ovo.",
+    "Las  tecnologías de sexado <i>in ovo</i> resuelven esta problemática identificando el sexo del embrión durante la incubación y retirándolo tempranamente si es macho. Esto mejora la eficiencia productiva mediante la optimización de recursos, crea nuevas oportunidades de manejo, reduce el impacto ambiental, evita el sufrimiento animal y fortalece el posicionamiento de la industria frente a las nuevas exigencias del mercado. ",
   "stats.item1.title": "11,8 M",
   "stats.item1.description": "pollitos macho eliminados cada año en Chile",
   "stats.item2.title": "3,2%",
@@ -65,7 +67,7 @@ const es = {
   "stats.source": "Fuente",
   "cta.item1.title": "¿Qué hacemos?",
   "cta.item1.description":
-    "Trabajamos con incubadoras, productores, retail y proveedores tecnológicos para identificar y superar las barreras que dificultan la adopción del sexado in ovo. </br>Conectamos a actores nacionales e internacionales, facilitando la creación de alianzas estratégicas que potencien la rentabilidad de adoptar estas tecnologías. También entregamos información técnica, estudios de mercado y lecciones aprendidas en otros mercados que ya las han adoptado y demostrado su viabilidad.",
+    "Trabajamos con incubadoras, productores, retail y proveedores tecnológicos para identificar y superar las barreras que dificultan la adopción del sexado <i>in ovo</i>. </br>Conectamos a actores nacionales e internacionales, facilitando la creación de alianzas estratégicas que potencien la rentabilidad de adoptar estas tecnologías. También entregamos información técnica, estudios de mercado y lecciones aprendidas en otros mercados que ya las han adoptado y demostrado su viabilidad.",
   "cta.discover": "Descubre la solución",
   "cta.item2.title": "Apóyanos",
   "cta.item2.description":
