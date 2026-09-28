@@ -74,3 +74,9 @@ nav ul li a {
     background-color: #f9f7f6;
   }
 }
+
+.nav-subcontainer {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
