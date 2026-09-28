@@ -54,12 +54,17 @@
   </head>
   <body>
     <nav>
+      <a href="#/" class="logo">
+        <img src="assets/images/denovo-dark-grey.svg" alt="denovo logo" />
+      </a>
       <ul class="nav-links">
-        <li><a href="#/" data-i18n="nav.home"></a></li>
+        <!-- <li><a href="#/" data-i18n="nav.home"></a></li> -->
         <li><a href="#/about" data-i18n="nav.about"></a></li>
         <li><a href="#/mission" data-i18n="nav.mission"></a></li>
+        <li>
+          <button type="submit" class="donate" data-i18n="nav.donate"></button>
+        </li>
       </ul>
-      <button type="submit" class="donate" data-i18n="nav.donate"></button>
       <button type="button" class="burger" aria-label="toggle-navigation">
         <i class="fa-solid fa-bars"></i>
       </button>
@@ -67,7 +72,11 @@
     <main></main>
     <footer>
       <div class="company-info">
-        <img alt="wordmark" href="" />
+        <img
+          src="assets/images/denovo-dark-grey.svg"
+          alt="denovo logo"
+          href=""
+        />
         <p data-i18n="footer.description"></p>
         <div class="contact-info">
           <p id="email">denovo@denovo.cl</p>

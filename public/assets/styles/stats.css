@@ -29,12 +29,11 @@
   }
 }
 
- .centered {
+.centered {
   margin: 20px;
- }
+}
 
 @media screen and (width >= 800px) {
-
   .stats {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
