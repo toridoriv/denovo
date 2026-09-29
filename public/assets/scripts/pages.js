@@ -48,9 +48,25 @@ const home = `
   </article>
 </section>`;
 
+const about = `
+<section id="people" class="people">
+  <h1 data-i18n="team.about"></h1>
+    <figure class="person">
+      <img src="assets/images/samuel.png" alt="" />
+      <h3 data-i18n="team.samuel.name"></h3>
+      <p data-i18n="team.samuel.description"></p>
+    </figure>
+    <figure class="person">
+      <img src="assets/images/diego.png">
+      <h3 data-i18n="team.diego.name"></h3>
+      <p data-i18n="team.diego.description"></p>
+    </figure>
+  </section>
+`;
+
 const PAGES = Object.freeze({
   "/": home,
-  "/about": `<h1 data-i18n="nav.about"></h1>`,
+  "/about": about,
   "/mission": `<h1 data-i18n="nav.mission"></h1>`,
 });
 

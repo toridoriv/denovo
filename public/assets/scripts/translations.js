@@ -37,6 +37,14 @@ const en = {
     "DeNovo is a fiscally sponsored project of Anti Entropy (EIN: 88-0967420), a 501(c)(3) nonprofit organization. Donations are tax-deductible as allowed by law.",
   "footer.description":
     "Corporate advocacy program to accelerate the adoption of in-ovo sexing technologies in the poultry industry.",
+  "team.about": "Meet the team",
+  "team.samuel.name": "Samuel Álvarez",
+  "team.samuel.title": "",
+  "team.samuel.description":
+    "Worked for over 7 years on the waste management sector, leading logistics operations and customer relationships. Worked and participated as a volunteer in diverse initiatives of the social sphere while also persuing a parallel career as a professional musician",
+  "team.diego.name": "Diego Andrade",
+  "team.diego.title": "",
+  "team.diego.description": "",
 };
 
 /**
@@ -77,6 +85,14 @@ const es = {
     "DeNovo es un proyecto patrocinado fiscalmente por Anti Entropy (EIN: 88-0967420), una organización sin fines de lucro 501(c)(3). Las donaciones son deducibles de impuestos según lo permitido por la ley.",
   "footer.description":
     "Programa de incidencia corporativa para acelerar la adopción de tecnologías de sexado <i>in ovo</i> en el sector avícola.",
+  "team.about": "Conoce al equipo",
+  "team.samuel.name": "Samuel Álvarez",
+  "team.samuel.title": "",
+  "team.samuel.description":
+    "Ha trabajado por más de 7 años en la industria de manejo de residuos, liderando operaciones de logística y atención a clientes. También ha trabajado y participado como voluntario en diversas iniciativas en el sector social, además de tener una carrera paralela como músico profesional.",
+  "team.diego.name": "Diego Andrade",
+  "team.diego.title": "",
+  "team.diego.description": "",
 };
 
 /**
@@ -117,6 +133,13 @@ const pt = {
     "DeNovo é um projeto patrocinado fiscalmente por Anti Entropy (EIN: 88-0967420), uma organização sem fins lucrativos 501(c)(3). As doações poder ser deduzidas de imposto conforme permitido por lei.",
   "footer.description":
     "Programa de outreach corporativo para acelerar a adoção de tecnologias de sexagem <i>in ovo</i> na indústria avícola.",
+  "team.about": "Conheça a equipe",
+  "team.samuel.name": "Samuel Álvarez",
+  "team.samuel.title": "",
+  "team.samuel.description": "",
+  "team.diego.name": "Diego Andrade",
+  "team.diego.title": "",
+  "team.diego.description": "",
 };
 
 /**

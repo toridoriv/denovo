@@ -1,0 +1,60 @@
+.people {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+
+  * {
+    box-sizing: border-box;
+  }
+}
+.person {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e3e2;
+  align-items: center;
+  border-radius: 18px;
+  overflow: hidden;
+  width: 90%;
+  max-width: 500px;
+
+  * {
+    max-width: 80%;
+  }
+
+  img {
+    object-fit: contain;
+    max-width: 250px;
+    margin: 10px;
+    border-radius: 18px;
+  }
+}
+
+.centered {
+  margin: 20px;
+}
+
+@media screen and (width >= 800px) {
+  .people {
+    display: flex;
+    flex-wrap: wrap;
+
+    * {
+      justify-content: space-evenly;
+    }
+
+    h1 {
+      flex-basis: 100%;
+      text-align: center;
+    }
+
+    .person {
+      justify-content: space-between;
+    }
+  }
+  .centered {
+    text-align: center;
+    grid-column: 2;
+  }
+}

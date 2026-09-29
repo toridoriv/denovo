@@ -32,6 +32,13 @@ declare global {
       "cta.donate": string;
       "footer.legal": string;
       "footer.description": string;
+      "team.about": string;
+      "team.samuel.name": string;
+      "team.samuel.title": string;
+      "team.samuel.description": string;
+      "team.diego.name": string;
+      "team.diego.title": string;
+      "team.diego.description": string;
     };
 
     type TranslationKey = keyof TranslationSchema;
