@@ -82,10 +82,77 @@ function isNotNullish(value) {
 }
 
 /**
- * Sets up the burger menu toggle functionality for navigation links.
+ * @template {HTMLElement} [T=HTMLElement]
  */
-function setBurgerMenu() {
-  $(".burger").on("click", function () {
-    $(this).parent().find(".nav-links").slideToggle("slow");
-  });
+class BurgerMenu {
+  /**
+   * The jQuery-wrapped element representing the burger menu.
+   *
+   * @type {JQuery<T>}
+   */
+  $el;
+  /**
+   * The underlying DOM element representing the burger menu.
+   *
+   * @type {T}
+   */
+  el;
+  /**
+   * The jQuery-wrapped element representing the navigation links.
+   *
+   * @type {JQuery<HTMLUListElement>}
+   */
+  nav;
+
+  /**
+   * Initializes a new instance of the BurgerMenu class.
+   *
+   * @param {string} selector The CSS selector for the burger menu element.
+   */
+  constructor(selector) {
+    this.selector = selector;
+    this.$el = $(selector);
+    this.el = this.$el[0];
+    this.nav = this.$el.parent().find(".nav-links");
+  }
+
+  /**
+   * Indicates whether the navigation links are currently visible.
+   *
+   * @returns {boolean}
+   */
+  get isVisible() {
+    return this.nav.is(":visible");
+  }
+
+  /**
+   * Registers event listeners for the burger menu interactions.
+   */
+  registerEvents() {
+    this.$el.on("click", this.handleClick.bind(this));
+    globalThis.addEventListener("click", this.handleGlobalClick.bind(this));
+  }
+
+  /**
+   * Handles the click event on the burger menu, toggling the visibility of the navigation links.
+   */
+  handleClick() {
+    this.nav.slideToggle("slow");
+  }
+
+  /**
+   * Handles the global click event to close the navigation links if clicked outside.
+   *
+   * @param {PointerEvent} event - The pointer event triggered by the global click.
+   */
+  handleGlobalClick(event) {
+    const target = /** @type {HTMLElement} */ (event.target);
+
+    if (target === this.el) return;
+    if (target === this.nav[0]) return;
+    if (this.el.contains(target)) return;
+    if (!this.isVisible) return;
+
+    this.handleClick();
+  }
 }

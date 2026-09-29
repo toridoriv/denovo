@@ -9,8 +9,10 @@
 
   const internalization = new Internationalization("es");
   const pageRouter = new PageRouter(internalization);
+  const burgerMenu = new BurgerMenu(".burger");
 
   internalization.applyTranslation();
+  burgerMenu.registerEvents();
 
   $(Internationalization.LANGUAGE_SELECTOR).on(
     "change",
@@ -25,7 +27,6 @@
 
   pageRouter.goTo(window.location.hash);
   pageRouter.setLocalAnchorHandlers();
-  setBurgerMenu();
 
   function stopLoading() {
     $("#preloader").hide(1000);
