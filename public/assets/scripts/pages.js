@@ -43,7 +43,8 @@ const home = `
   <article class="bg-almost-white-text-darkgrey card">
     <h3 data-i18n="cta.item2.title"></h3>
     <p data-i18n="cta.item2.description"></p>
-    <a data-i18n="cta.donate" class="button"></a>
+    <a data-i18n="cta.donate" class="button" href="https://www.every.org/laboratory-of-social-entrepreneurship/f/denovo-ending-the-killing"
+          target="_blank"></a>
   </article>
 </section>`;
 
