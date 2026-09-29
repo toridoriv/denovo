@@ -3,11 +3,12 @@ nav {
   display: flex;
   height: 4rem;
   align-items: center;
-  justify-content: end;
+  justify-content: space-between;
   background-color: #f4bc29;
+  padding: 0 1rem;
 }
 
-nav ul {
+.nav-links {
   position: absolute;
   top: 100%;
   display: none;
@@ -18,21 +19,30 @@ nav ul {
   list-style-type: none;
   background-color: #f9f7f6;
   border-radius: 0 0 20px 20px;
+  padding: 0;
 }
 
-nav ul li {
+.nav-links li {
   border-top: 1px solid #404040;
 }
 
-nav ul li:first-child {
+.nav-links li:first-child {
   border-top: none;
 }
 
-nav ul li a {
+.nav-links li a {
   display: block;
   padding: 1rem;
   color: #404040;
   text-decoration: none;
+}
+
+.logo img {
+  width: 200px;
+}
+
+.logo img:hover {
+  cursor: pointer;
 }
 
 @media screen and (width >= 800px) {
@@ -40,7 +50,7 @@ nav ul li a {
     align-items: center;
   }
 
-  nav ul {
+  .nav-links {
     position: relative;
     top: 0;
     display: flex;
@@ -49,18 +59,25 @@ nav ul li a {
     background-color: #f4bc29;
   }
 
-  nav ul li {
+  .nav-links li {
     height: 100%;
     border-top: none;
+    align-content: center;
   }
 
-  nav ul li a {
+  .nav-links li a {
     height: 100%;
     padding: 0 1em;
     align-content: center;
   }
 
-  nav ul li a:hover {
+  .nav-links li a:hover {
     background-color: #f9f7f6;
   }
+}
+
+.nav-subcontainer {
+  display: flex;
+  align-items: center;
+  height: 100%;
 }
