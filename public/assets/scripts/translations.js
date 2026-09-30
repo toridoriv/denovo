@@ -15,7 +15,7 @@ const en = {
     "Each year, the egg industry faces a structural challenge: 50% of chicks incubated to be 'layer' chickens are male. These chicks are determined manually and discarded immediately after birth since they are unable to lay eggs and belong to a genetic breed that is unprofitable for the production of meat.<br />Incubators must allocate infrastructure, space, power and specialized labor to a process that yields them no direct benefits. The practice also presents rising challenges in matters of sustainability, animal welfare and public perception.",
   "challenge.title": "A structural challenge that can be solved",
   "challenge.description":
-    "In-ovo sexing technologies solve this problem by allowing identification of the embrio and its early removal during incubation. This innovation improves production efficiency by optimizing resources, creates new handling opportunities, reduces environmental impact, prevents animal suffering and strengthens the posicion of the sector in the face of new market demands.",
+    "In-ovo sexing technologies solve this problem by allowing identification of the embrio and its early removal during incubation. This innovation improves production efficiency by optimizing resources, creates new handling opportunities, reduces environmental impact, prevents animal suffering and strengthens the position of the sector in the face of new market demands.",
   "stats.item1.title": "11.8 M",
   "stats.item1.description": "male chicks discarded each year in Chile",
   "stats.item2.title": "3.2%",
