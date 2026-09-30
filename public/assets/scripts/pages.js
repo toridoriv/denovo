@@ -1,6 +1,5 @@
 const home = `
 <header class="bg-darkgrey-text-almost-white hero">
-  <h2 data-i18n="header.overline"></h2>
   <h1 data-i18n="header.title"></h1>
   <a class="button" href="#/contact" data-i18n="header.contact"></a>
   <a class="button" href="#/mission" data-i18n="header.mission"></a>
