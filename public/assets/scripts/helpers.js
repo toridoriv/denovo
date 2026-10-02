@@ -126,17 +126,38 @@ class BurgerMenu {
   }
 
   /**
+   * Indicates whether the mobile breakpoint is currently active.
+   * 
+   * @returns {boolean}
+   */
+  get isMobile() {
+    return globalThis.window.innerWidth < 800;
+  }
+
+  /**
    * Registers event listeners for the burger menu interactions.
    */
   registerEvents() {
     this.$el.on("click", this.handleClick.bind(this));
     globalThis.addEventListener("click", this.handleGlobalClick.bind(this));
+    globalThis.window.addEventListener("resize", this.handleResize.bind(this));
+  }
+
+  /**
+   * Handles the window resize event to ensure proper display of navigation links.  
+   */
+  handleResize() {
+    if (this.isMobile) return;
+
+    this.nav.css("display", "");
   }
 
   /**
    * Handles the click event on the burger menu, toggling the visibility of the navigation links.
    */
   handleClick() {
+    if (!this.isMobile) return;
+
     this.nav.slideToggle("slow");
   }
 
