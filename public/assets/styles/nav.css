@@ -11,6 +11,7 @@ nav {
 .nav-links {
   position: absolute;
   top: 100%;
+  left: 6%;
   display: none;
   width: 90%;
   margin: 0;
@@ -19,10 +20,21 @@ nav {
   list-style-type: none;
   background-color: #f9f7f6;
   border-radius: 0 0 20px 20px;
+  padding: 0;
 }
 
 .nav-links li {
   border-top: 1px solid #404040;
+  display: flex;
+  align-items: center;
+}
+
+.nav-links li:has(> .donate){
+  background-color: #f4bc29;
+}
+
+.nav-links li:active {
+  background-color: #f4bc29;
 }
 
 .nav-links li:first-child {

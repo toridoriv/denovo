@@ -10,22 +10,10 @@
   text-decoration: none;
 }
 
-.button:hover {
-  animation: pulse 1s ease-out;
-  box-shadow: 0 0 20px rgba(244, 188, 41, 0.5);
-}
-
 .donate {
   text-decoration: none;
 }
-@keyframes pulse {
-  0% {
-    box-shadow: 0 0 0 0 rgba(244, 188, 41, 0.5);
-  }
-  100% {
-    box-shadow: 0 0 0 16px rgba(244, 188, 41, 0);
-  }
-}
+
 
 .button:active {
   background-color: #404040;
@@ -39,18 +27,41 @@
   padding: 8px;
   font-size: 1.5rem;
   border-radius: 18px;
-  background-color: #f9f7f6;
-  border: 03px solid #404040;
+  background-color: #f4bc29;
   color: #404040;
-}
-
-.donate:hover {
-  color: #f9f7f6;
-  background-color: #404040;
 }
 
 @media screen and (width >= 800px) {
   .button {
     margin: 0 1rem 0 0;
   }
+  @keyframes pulse {
+    0% {
+      box-shadow: 0 0 0 0 rgba(244, 188, 41, 0.5);
+    }
+    100% {
+      box-shadow: 0 0 0 16px rgba(244, 188, 41, 0);
+    }
+  }
+  .button:hover {
+    animation: pulse 1s ease-out;
+    box-shadow: 0 0 20px rgba(244, 188, 41, 0.5);
+  }
+
+  .donate {
+    background-color: #f9f7f6;
+    height: 50%!important;
+
+  }
+  .donate:hover {
+    color:#f9f7f6;
+    background-color: #404040!important;
+  }
+
+  .donate:active {
+    background-color: #404040;
+    color: #f4bc29;
+    border: 2px solid #f9f7f6;
+  }
+
 }
