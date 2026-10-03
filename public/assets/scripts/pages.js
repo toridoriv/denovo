@@ -52,13 +52,13 @@ const home = `
 const about = `
 <section id="people" class="people">
   <h1 data-i18n="team.about"></h1>
-    <figure class="person">
-      <img src="assets/images/samuel.png" alt="" />
+    <figure class="person melt">
+      <img src="" alt="" />
       <h3 data-i18n="team.samuel.name"></h3>
       <p data-i18n="team.samuel.description"></p>
     </figure>
-    <figure class="person">
-      <img src="assets/images/diego.png">
+    <figure class="person melt">
+      <img src="">
       <h3 data-i18n="team.diego.name"></h3>
       <p data-i18n="team.diego.description"></p>
     </figure>

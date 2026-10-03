@@ -37,14 +37,15 @@ const en = {
     "DeNovo is a fiscally sponsored project of Anti Entropy (EIN: 88-0967420), a 501(c)(3) nonprofit organization. Donations are tax-deductible as allowed by law.",
   "footer.description":
     "Corporate advocacy program to accelerate the adoption of in-ovo sexing technologies in the poultry industry.",
-  "team.about": "Meet the team",
+  "team.about": "The team",
   "team.samuel.name": "Samuel Álvarez",
   "team.samuel.title": "",
   "team.samuel.description":
     "Worked for over 7 years on the waste management sector, leading logistics operations and customer relationships. Worked and participated as a volunteer in diverse initiatives of the social sphere while also persuing a parallel career as a professional musician",
   "team.diego.name": "Diego Andrade",
   "team.diego.title": "",
-  "team.diego.description": "",
+  "team.diego.description":
+    "Diego is a translator with a degree in Applied Linguistics and more than 14 years of professional experience. He has spent his career helping companies and private individuals get their ideas and projects across language barriers, in such sectors as renewable energies, winemaking, pharmaceuticals, philosophy and literature. He’s motivated to leverage his skills in cross-cultural communication and customer management to help local industries make the leap towards innovations that improve the welfare of animals. ",
 };
 
 /**
@@ -85,7 +86,7 @@ const es = {
     "DeNovo es un proyecto patrocinado fiscalmente por Anti Entropy (EIN: 88-0967420), una organización sin fines de lucro 501(c)(3). Las donaciones son deducibles de impuestos según lo permitido por la ley.",
   "footer.description":
     "Programa de incidencia corporativa para acelerar la adopción de tecnologías de sexado <i>in ovo</i> en el sector avícola.",
-  "team.about": "Conoce al equipo",
+  "team.about": "El equipo",
   "team.samuel.name": "Samuel Álvarez",
   "team.samuel.title": "",
   "team.samuel.description":
@@ -133,7 +134,7 @@ const pt = {
     "DeNovo é um projeto patrocinado fiscalmente por Anti Entropy (EIN: 88-0967420), uma organização sem fins lucrativos 501(c)(3). As doações poder ser deduzidas de imposto conforme permitido por lei.",
   "footer.description":
     "Programa de outreach corporativo para acelerar a adoção de tecnologias de sexagem <i>in ovo</i> na indústria avícola.",
-  "team.about": "Conheça a equipe",
+  "team.about": "A equipe",
   "team.samuel.name": "Samuel Álvarez",
   "team.samuel.title": "",
   "team.samuel.description": "",
