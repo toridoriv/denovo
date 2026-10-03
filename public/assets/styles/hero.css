@@ -3,33 +3,54 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  text-align: center;
-  align-items: center;
+  text-align: start;
+  align-items: flex-start;
+  background-image:
+    linear-gradient(rgba(64, 64, 64, 0.2), rgba(64, 64, 64, 0.5)),
+    url("../images/chickens-000.jpg");
+  background-size: cover;
+  background-position: 75%;
+  background-blend-mode: multiply;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  justify-content: space-evenly;
 
   h1 {
     font-family: "League Spartan", Verdana, Geneva, Tahoma, sans-serif;
-    margin: 10;
+    margin: 10px;
+    max-width: 50%;
+    text-align: start;
+    font-size: 2.5rem;
   }
 
   h2 {
     font-family: "Rethink Sans", Georgia, "Times New Roman", Times, serif;
     margin: 0;
   }
+
+  .hero-buttons {
+    flex-basis: 100%;
+  }
 }
+
 
 @media screen and (width >= 800px) {
   .hero {
-    padding: 2rem;
+    padding: 9rem 5rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     text-align: start;
     align-items: flex-start;
+    height: 500px;
+    justify-content: flex-start;
 
     h1 {
       font-family: "League Spartan", Verdana, Geneva, Tahoma, sans-serif;
       margin: 10;
       flex-basis: 100%;
+      font-size: 3em;
+      width: 50%;
     }
 
     h2 {
@@ -37,5 +58,10 @@
       margin: 0;
       flex-basis: 100%;
     }
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
   }
+
 }
