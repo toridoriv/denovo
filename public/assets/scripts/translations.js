@@ -6,15 +6,15 @@ const en = {
   "nav.about": "who we are",
   "nav.mission": "what we do",
   "nav.donate": "donate",
-  "header.overline": "Corporate advocacy program",
+  "header.lead": "Corporate advocacy program",
   "header.title":
     "ACCELERATING THE ADOPTION OF IN-OVO SEXING IN THE POULTRY INDUSTRY",
   "header.contact": "CONTACT US",
   "header.mission": "LEARN MORE",
-  "intro.description":
+  "challenge.description":
     "Each year, the egg industry faces a structural challenge: 50% of chicks incubated to be 'layer' chickens are male. These chicks are determined manually and discarded immediately after birth since they are unable to lay eggs and belong to a genetic breed that is unprofitable for the production of meat.<br />Incubators must allocate infrastructure, space, power and specialized labor to a process that yields them no direct benefits. The practice also presents rising challenges in matters of sustainability, animal welfare and public perception.",
   "challenge.title": "A structural challenge that can be solved",
-  "challenge.description":
+  "cta.item1.description":
     "In-ovo sexing technologies solve this problem by allowing identification of the embrio and its early removal during incubation. This innovation improves production efficiency by optimizing resources, creates new handling opportunities, reduces environmental impact, prevents animal suffering and strengthens the position of the sector in the face of new market demands.",
   "stats.item1.title": "11.8 M",
   "stats.item1.description": "male chicks discarded each year in Chile",
@@ -25,9 +25,9 @@ const en = {
   "stats.item3.description":
     "regions with the highest concentration of the problem",
   "stats.source": "Source",
-  "cta.item1.title": "What We Do",
-  "cta.item1.description":
-    "We work jointly with incubators, producers, retail and technology suppliers in identifying and overcoming barriers for the adoption of in-ovo sexing.</br>We put national and international players in touch to facilitate the creation of strategic alliances that promote the cost-effectiveness of adopting these technologies. We also provide technical information, market research and lessons learned in other markets where these technologies have already been adopted and have proven their viability.",
+  "cta.item1.title": "The Solution",
+  "intro.description":
+    "DeNovo works jointly with incubators, producers, retail and technology suppliers in identifying and overcoming barriers for the adoption of in-ovo sexing.</br>We put national and international players in touch to facilitate the creation of strategic alliances that promote the cost-effectiveness of adopting these technologies. We also provide technical information, market research and lessons learned in other markets where these technologies have already been adopted and have proven their viability.</br> </br>We are an independent non-profit organization with no commercial ties to these technologies. Our commitment is accelerating the transition towards in-ovo sexing, effectively and reliably.",
   "cta.discover": "Discover the solution",
   "cta.item2.title": "Support Us",
   "cta.item2.description":
@@ -55,15 +55,15 @@ const es = {
   "nav.about": "quiénes somos",
   "nav.mission": "qué hacemos",
   "nav.donate": "donar",
-  "header.overline": "Programa de incidencia corporativa",
+  "header.lead": "Programa de incidencia corporativa",
   "header.title":
     "ACELERANDO LA ADOPCIÓN DE SEXADO <i>IN OVO</i> EN LA INDUSTRIA AVÍCOLA",
   "header.contact": "CONTÁCTANOS",
   "header.mission": "CONOCE MÁS",
-  "intro.description":
+  "challenge.description":
     "La industria del huevo enfrenta cada año un desafío estructural: el 50% de los polluelos incubados para obtener gallinas ponedoras son machos. Estos pollitos son identificados manualmente y descartados recién nacidos, pues no ponen huevos y pertenecen a líneas genéticas que no son rentables para la producción de carne. </br>Para las empresas incubadoras, esto significa destinar infraestructura, espacio, energía y mano de obra especializada en un proceso que no genera un beneficio directo. Esta práctica también plantea desafíos crecientes en materia de sostenibilidad , bienestar animal y percepción pública.",
   "challenge.title": "Un desafío estructural que se puede resolver",
-  "challenge.description":
+  "cta.item1.description":
     "Las  tecnologías de sexado <i>in ovo</i> resuelven esta problemática identificando el sexo del embrión durante la incubación y retirándolo tempranamente si es macho. Esto mejora la eficiencia productiva mediante la optimización de recursos, crea nuevas oportunidades de manejo, reduce el impacto ambiental, evita el sufrimiento animal y fortalece el posicionamiento de la industria frente a las nuevas exigencias del mercado. ",
   "stats.item1.title": "11,8 M",
   "stats.item1.description": "pollitos macho eliminados cada año en Chile",
@@ -73,9 +73,9 @@ const es = {
   "stats.item3.title": "R.M. y Valparaíso",
   "stats.item3.description": "regiones con mayor concentración del problema",
   "stats.source": "Fuente",
-  "cta.item1.title": "¿Qué hacemos?",
-  "cta.item1.description":
-    "Trabajamos con incubadoras, productores, retail y proveedores tecnológicos para identificar y superar las barreras que dificultan la adopción del sexado <i>in ovo</i>. </br>Conectamos a actores nacionales e internacionales, facilitando la creación de alianzas estratégicas que potencien la rentabilidad de adoptar estas tecnologías. También entregamos información técnica, estudios de mercado y lecciones aprendidas en otros mercados que ya las han adoptado y demostrado su viabilidad.",
+  "cta.item1.title": "La solución",
+  "intro.description":
+    "DeNovo trabaja con incubadoras, productores, retail y proveedores tecnológicos para identificar y superar las barreras que dificultan la adopción del sexado <i>in ovo</i>. </br>Conectamos a actores nacionales e internacionales, facilitando la creación de alianzas estratégicas que potencien la rentabilidad de adoptar estas tecnologías. También entregamos información técnica, estudios de mercado y lecciones aprendidas en otros mercados que ya las han adoptado y demostrado su viabilidad.</br></br>Somos una organización independiente, sin fines de lucro y sin vinculación comercial con las distintas tecnologías. Nuestro compromiso es acelerar la transición hacia el sexado in ovo de la manera más efectiva y confiable.",
   "cta.discover": "Descubre la solución",
   "cta.item2.title": "Apóyanos",
   "cta.item2.description":
@@ -103,15 +103,15 @@ const pt = {
   "nav.about": "quem somos",
   "nav.mission": "que fazemos",
   "nav.donate": "doar",
-  "header.overline": "Programa de outreach corporativo",
+  "header.lead": "Programa de outreach corporativo",
   "header.title":
     "ACELERANDO A ADOÇÃO DA SEXAGEM <i>IN OVO</i> NA INDÚSTRIA AVÍCOLA",
   "header.contact": "FALE CONOSCO",
   "header.mission": "CONHEÇA MAIS",
-  "intro.description":
+  "challenge.description":
     "A indústria de ovos enfrenta um desafio estrutural a cada ano: 50% dos pintinhos incubados para obter galinhas poedeiras são machos. Esses pintinhos são identificados manualmente e descartados logo após nascerem, pois não botam ovos e pertencem a linhagens genéticas que não são rentáveis para a produção de carne.</br>Isso significa que os incubatórios dedicam infraestrutura, espaço, energia e mão de obra especializada a um processo que não gera benefícios diretos. Além disso, essa prática apresenta desafios crescentes em termos de sustentabilidade, bem-estar animal e percepção pública.",
   "challenge.title": "Um desafio estrutural que pode ser resolvido",
-  "challenge.description":
+  "cta.item1.description":
     "As tecnologias de sexagem <i>in ovo</i> solucionam essa problemática ao identificar o sexo do embrião ainda durante a incubação e removê-lo precocemente se for macho. Isso melhora a eficiência produtiva otimizando recursos, cria novas oportunidades de manejo, reduz o impacto ambiental, evita o sofrimento animal e fortalece o posicionamento do setor diante das novas exigências do mercado.",
   "stats.item1.title": "11,8 M",
   "stats.item1.description": "pintinhos machos descartados cada ano no Chile",
@@ -121,9 +121,9 @@ const pt = {
   "stats.item3.title": "R.M. e Valparaíso",
   "stats.item3.description": "regiões com a maior concentração do problema",
   "stats.source": "Fonte",
-  "cta.item1.title": "O que fazemos?",
-  "cta.item1.description":
-    "Trabalhamos com incubatórios, produtores, empresas de varejo e fornecedores de tecnologia para identificar e superar as barreiras para sua adoção.</br>Conectamos atores nacionais e internacionais, promovendo a formação de parcerias estratégicas que potencializem a rentabilidade da implementação dessas tecnologias. Também fornecemos informações técnicas, estudos de mercado e aprendizados de outros mercados que já as adotaram e demonstraram sua viabilidade.",
+  "cta.item1.title": "A solução",
+  "intro.description":
+    "DeNovo trabalha com incubatórios, produtores, empresas de varejo e fornecedores de tecnologia para identificar e superar as barreiras para sua adoção.</br>Conectamos atores nacionais e internacionais, promovendo a formação de parcerias estratégicas que potencializem a rentabilidade da implementação dessas tecnologias. Também fornecemos informações técnicas, estudos de mercado e aprendizados de outros mercados que já as adotaram e demonstraram sua viabilidade.</br></br>Somos uma organização independente, sem fins lucrativos e sem vínculos comerciais com nenhuma das tecnologias disponíveis. Nosso compromisso é acelerar a transição para a sexagem <i>in ovo</i> da maneira mais efetiva e confiável.",
   "cta.discover": "Descobra a solução",
   "cta.item2.title": "Apoie-nos",
   "cta.item2.description":

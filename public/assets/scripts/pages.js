@@ -1,15 +1,18 @@
 const home = `
 <header class="bg-darkgrey-text-almost-white hero">
   <h1 data-i18n="header.title"></h1>
-  <a class="button" href="#/contact" data-i18n="header.contact"></a>
-  <a class="button" href="#/mission" data-i18n="header.mission"></a>
+  <h2 data-i18n="header.title"></h2>
+  <div class="hero-buttons">
+    <a class="button" href="#/contact" data-i18n="header.contact"></a>
+    <a class="button" href="#/mission" data-i18n="header.mission"></a>
+  </div>
 </header>
 <section class="bg-almost-white-text-darkgrey main-section">
   <article id="intro" class="intro">
     <p data-i18n="intro.description"></p>
     <div id="decorative-image"></div>
   </article>
-  <article id="challenge" class="bg-destiny-text-darkgrey card">
+  <article id="challenge" class="bg-destiny-text-darkgrey card topography">
     <h2 data-i18n="challenge.title"></h2>
     <p data-i18n="challenge.description"></p>
   </article>
@@ -32,12 +35,11 @@ const home = `
     <figcaption class="centered"><span data-i18n="stats.source"></span>: ChileHuevos 2025, INE 2025</figcaption>
   </section>
 </section>
-<section id="cta">
+<section id="cta" class="circuit">
   <article class="bg-darkgrey-text-almost-white description">
     <img src="assets/images/eggs-001.jpg" alt="" />
     <h3 data-i18n="cta.item1.title"></h3>
     <p data-i18n="cta.item1.description"></p>
-    <a data-i18n="cta.discover" class="button"></a>
   </article>
   <article class="bg-almost-white-text-darkgrey card">
     <h3 data-i18n="cta.item2.title"></h3>
