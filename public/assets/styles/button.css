@@ -14,7 +14,6 @@
   text-decoration: none;
 }
 
-
 .button:active {
   background-color: #404040;
   color: #f4bc29;
@@ -50,12 +49,11 @@
 
   .donate {
     background-color: #f9f7f6;
-    height: 50%!important;
-
+    height: 50% !important;
   }
   .donate:hover {
-    color:#f9f7f6;
-    background-color: #404040!important;
+    color: #f9f7f6;
+    background-color: #404040 !important;
   }
 
   .donate:active {
@@ -63,5 +61,4 @@
     color: #f4bc29;
     border: 2px solid #f9f7f6;
   }
-
 }

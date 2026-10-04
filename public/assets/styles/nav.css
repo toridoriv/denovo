@@ -29,7 +29,7 @@ nav {
   align-items: center;
 }
 
-.nav-links li:has(> .donate){
+.nav-links li:has(> .donate) {
   background-color: #f4bc29;
 }
 

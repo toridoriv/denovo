@@ -33,7 +33,6 @@
   }
 }
 
-
 @media screen and (width >= 800px) {
   .hero {
     padding: 9rem 5rem;
@@ -63,5 +62,4 @@
       object-fit: cover;
     }
   }
-
 }
