@@ -10,7 +10,7 @@ declare global {
       "nav.about": string;
       "nav.mission": string;
       "nav.donate": string;
-      "header.overline": string;
+      "header.lead": string;
       "header.title": string;
       "header.contact": string;
       "header.mission": string;

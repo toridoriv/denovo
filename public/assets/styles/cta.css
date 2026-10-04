@@ -21,6 +21,7 @@
 
 .description {
   margin: 0 0 1rem 0;
+  background-color: transparent;
 
   * {
     margin: 0;
@@ -46,6 +47,7 @@
 
 @media screen and (width >= 800px) {
   #cta {
+    padding: 0 5rem;
     article {
       display: grid;
       grid-template-rows: repeat(3, auto);
@@ -64,7 +66,7 @@
   .description {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-
+    margin: 50px 0;
     p {
       grid-column: span 3;
     }

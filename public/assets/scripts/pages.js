@@ -1,16 +1,18 @@
 const home = `
 <header class="bg-darkgrey-text-almost-white hero">
-  <h2 data-i18n="header.overline"></h2>
   <h1 data-i18n="header.title"></h1>
-  <a class="button" href="#/contact" data-i18n="header.contact"></a>
-  <a class="button" href="#/mission" data-i18n="header.mission"></a>
+  <h2 data-i18n="header.title"></h2>
+  <div class="hero-buttons">
+    <a class="button" href="#/contact" data-i18n="header.contact"></a>
+    <a class="button" href="#/mission" data-i18n="header.mission"></a>
+  </div>
 </header>
 <section class="bg-almost-white-text-darkgrey main-section">
   <article id="intro" class="intro">
     <p data-i18n="intro.description"></p>
     <div id="decorative-image"></div>
   </article>
-  <article id="challenge" class="bg-destiny-text-darkgrey card">
+  <article id="challenge" class="bg-destiny-text-darkgrey card topography">
     <h2 data-i18n="challenge.title"></h2>
     <p data-i18n="challenge.description"></p>
   </article>
@@ -33,12 +35,11 @@ const home = `
     <figcaption class="centered"><span data-i18n="stats.source"></span>: ChileHuevos 2025, INE 2025</figcaption>
   </section>
 </section>
-<section id="cta">
+<section id="cta" class="circuit">
   <article class="bg-darkgrey-text-almost-white description">
     <img src="assets/images/eggs-001.jpg" alt="" />
     <h3 data-i18n="cta.item1.title"></h3>
     <p data-i18n="cta.item1.description"></p>
-    <a data-i18n="cta.discover" class="button"></a>
   </article>
   <article class="bg-almost-white-text-darkgrey card">
     <h3 data-i18n="cta.item2.title"></h3>
@@ -51,13 +52,13 @@ const home = `
 const about = `
 <section id="people" class="people">
   <h1 data-i18n="team.about"></h1>
-    <figure class="person">
-      <img src="assets/images/samuel.png" alt="" />
+    <figure class="person melt">
+      <img src="" alt="" />
       <h3 data-i18n="team.samuel.name"></h3>
       <p data-i18n="team.samuel.description"></p>
     </figure>
-    <figure class="person">
-      <img src="assets/images/diego.png">
+    <figure class="person melt">
+      <img src="">
       <h3 data-i18n="team.diego.name"></h3>
       <p data-i18n="team.diego.description"></p>
     </figure>

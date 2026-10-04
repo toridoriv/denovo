@@ -4,6 +4,7 @@
   flex-wrap: wrap;
   width: 100%;
   justify-content: center;
+  gap: 10px;
 
   * {
     box-sizing: border-box;
@@ -16,6 +17,9 @@
   align-items: center;
   border-radius: 18px;
   overflow: hidden;
+  margin: 100px 0;
+  max-width: 300px;
+  flex-basis: 100%;
 
   * {
     max-width: 80%;
@@ -36,9 +40,10 @@
 @media screen and (width >= 800px) {
   .stats {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-
+    grid-template-columns: repeat(3, 300px);
+    margin: 0;
+    justify-content: center;
+    gap: 20px;
     * {
       justify-content: space-evenly;
     }

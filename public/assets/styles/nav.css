@@ -1,20 +1,21 @@
 nav {
   position: relative;
   display: flex;
-  height: 4rem;
+  height: 8rem;
   align-items: center;
   justify-content: space-between;
   background-color: #f4bc29;
-  padding: 0 1rem;
+  padding: 0 2rem;
 }
 
 .nav-links {
   position: absolute;
   top: 100%;
+  left: 6%;
   display: none;
   width: 90%;
   margin: 0;
-  font-size: 1rem;
+  font-size: 1.5rem;
   list-style: none;
   list-style-type: none;
   background-color: #f9f7f6;
@@ -24,6 +25,16 @@ nav {
 
 .nav-links li {
   border-top: 1px solid #404040;
+  display: flex;
+  align-items: center;
+}
+
+.nav-links li:has(> .donate) {
+  background-color: #f4bc29;
+}
+
+.nav-links li:active {
+  background-color: #f4bc29;
 }
 
 .nav-links li:first-child {
@@ -48,6 +59,7 @@ nav {
 @media screen and (width >= 800px) {
   nav {
     align-items: center;
+    padding: 0 5rem;
   }
 
   .nav-links {
