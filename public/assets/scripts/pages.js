@@ -33,7 +33,6 @@ const home = `
       <h3 data-i18n="stats.item3.title"></h3>
       <p data-i18n="stats.item3.description"></p>
     </figure>
-    <figcaption class="centered"><span data-i18n="stats.source"></span>: ChileHuevos 2025, INE 2025</figcaption>
   </section>
 </section>
 <section id="cta" class="circuit">
