@@ -41,7 +41,7 @@ const en = {
   "footer.legal":
     "DeNovo is a fiscally sponsored project of Anti Entropy (EIN: 88-0967420), a 501(c)(3) nonprofit organization. Donations are tax-deductible as allowed by law.",
   "footer.description":
-    "Corporate advocacy program to accelerate the adoption of in-ovo sexing technologies in the poultry industry.",
+    "Accelerating the adoption of in-ovo sexing technologies in the poultry industry.",
   "team.about": "The team",
   "team.samuel.name": "Samuel Álvarez",
   "team.samuel.title": "Executive Manager",
@@ -97,7 +97,7 @@ const es = {
   "footer.legal":
     "DeNovo es un proyecto patrocinado fiscalmente por Anti Entropy (EIN: 88-0967420), una organización sin fines de lucro 501(c)(3). Las donaciones son deducibles de impuestos según lo permitido por la ley.",
   "footer.description":
-    "Programa de incidencia corporativa para acelerar la adopción de tecnologías de sexado <i>in ovo</i> en el sector avícola.",
+    "Acelerando la adopción de tecnologías de sexado <i>in ovo</i> en el sector avícola.",
   "team.about": "El equipo",
   "team.samuel.name": "Samuel Álvarez",
   "team.samuel.title": "Director Ejecutivo",
@@ -151,7 +151,7 @@ const pt = {
   "footer.legal":
     "DeNovo é um projeto patrocinado fiscalmente por Anti Entropy (EIN: 88-0967420), uma organização sem fins lucrativos 501(c)(3). As doações poder ser deduzidas de imposto conforme permitido por lei.",
   "footer.description":
-    "Programa de outreach corporativo para acelerar a adoção de tecnologias de sexagem <i>in ovo</i> na indústria avícola.",
+    "Acelerando a adoção de tecnologias de sexagem <i>in ovo</i> na indústria avícola.",
   "team.about": "A equipe",
   "team.samuel.name": "Samuel Álvarez",
   "team.samuel.title": "Diretor Executivo",
