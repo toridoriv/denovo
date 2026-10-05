@@ -2,12 +2,14 @@
   border-radius: 18px;
   padding: 10%;
   margin: 2rem;
+  display: flex;
+  flex-direction: column;
 }
 
 @media screen and (width >= 800px) {
   .card {
     border-radius: 18px;
-    padding: 6rem;
+    padding: 3rem;
     margin: 5rem 10rem;
   }
 }
