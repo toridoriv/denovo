@@ -50,6 +50,7 @@
 
     .stats-card {
       margin: 100px 0;
+      justify-content: flex-start;
     }
   }
   .centered {
