@@ -17,14 +17,15 @@ const en = {
   "challenge.title": "A structural challenge that can be solved",
   "cta.item1.description":
     "In-ovo sexing technologies solve this problem by allowing identification of the embrio and its early removal during incubation. This innovation improves production efficiency by optimizing resources, creates new handling opportunities, reduces environmental impact, prevents animal suffering and strengthens the position of the sector in the face of new market demands.",
-  "stats.item1.title": "11.8 M",
-  "stats.item1.description": "male chicks discarded each year in Chile",
-  "stats.item2.title": "3.2%",
+  "stats.item1.title": "40%",
+  "stats.item1.description":
+    "Market penetration in 5 years in the European Union. It is estimated that more than 281 million male embryos have been removed before hatching.",
+  "stats.item2.title": "9 countries",
   "stats.item2.description":
-    "annual growth rate of egg production<br>(2014–2024)",
-  "stats.item3.title": "R.M and Valparaíso",
+    "Already have commercially available in ovo sexing technologies. China, Canada, and Japan are expected to join in the coming years.",
+  "stats.item3.title": "Latin America",
   "stats.item3.description":
-    "regions with the highest concentration of the problem",
+    "In 2025, the first in ovo sexing machine arrived in Brazil; the first in Latin America.",
   "stats.source": "Source",
   "cta.item1.title": "The Solution",
   "intro.column1.description":
@@ -80,7 +81,7 @@ const es = {
     "Ya cuentan con tecnologías de sexado <i>in ovo</i> comercialmente activas. China, Canadá y Japón podrían sumarse en los próximos años.",
   "stats.item3.title": "América Latina",
   "stats.item3.description":
-    "2025 es el año en que llegó la primera máquina de sexado <i>in ovo</i> a Brasil; los primeros en Latinoamérica.",
+    "2025 es el año en que llegó la primera máquina de sexado <i>in ovo</i> a Brasil; la primera en Latinoamérica.",
   "stats.source": "Fuente",
   "cta.item1.title": "La solución",
   "intro.column1.description":
@@ -129,12 +130,14 @@ const pt = {
   "cta.item1.description":
     "As tecnologias de sexagem <i>in ovo</i> solucionam essa problemática ao identificar o sexo do embrião ainda durante a incubação e removê-lo precocemente se for macho. Isso melhora a eficiência produtiva otimizando recursos, cria novas oportunidades de manejo, reduz o impacto ambiental, evita o sofrimento animal e fortalece o posicionamento do setor diante das novas exigências do mercado.",
   "stats.item1.title": "40%",
-  "stats.item1.description": "pintinhos machos descartados cada ano no Chile",
-  "stats.item2.title": "3,2%",
+  "stats.item1.description":
+    "Penetração de mercado em 5 anos na União Europeia. Estima-se que mais de 281 milhões de embriões machos foram retirados antes da eclosão.",
+  "stats.item2.title": "9 paises",
   "stats.item2.description":
-    "taxa de crescimiento anual da produção (2014–2024)",
-  "stats.item3.title": "R.M. e Valparaíso",
-  "stats.item3.description": "regiões com a maior concentração do problema",
+    "Já contam com tecnologias de sexagem <i>in ovo</i> comercialmente ativas. China, Canadá e Japão poderão aderir nos próximos anos.",
+  "stats.item3.title": "América Latina",
+  "stats.item3.description":
+    "2025 é o ano em que chegou a primeira máquina de sexagem <i>in ovo</i> ao Brasil; a primeira na América Latina.",
   "stats.source": "Fonte",
   "cta.item1.title": "A solução",
   "intro.column1.description":
