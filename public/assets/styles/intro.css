@@ -12,6 +12,7 @@
 @media screen and (width >= 800px) {
   .intro {
     display: flex;
+    flex-direction: row;
     margin: 0 5rem;
     padding: 2rem 5rem;
   }
