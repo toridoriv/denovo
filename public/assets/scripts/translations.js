@@ -6,9 +6,10 @@ const en = {
   "nav.about": "who we are",
   "nav.mission": "what we do",
   "nav.donate": "donate",
-  "header.lead": "Corporate advocacy program",
+  "header.lead":
+    "A technological solution to the problem of male chic culling that improves efficiency, competitiveness and susteinability in the poultry industry.",
   "header.title":
-    "ACCELERATING THE ADOPTION OF IN-OVO SEXING IN THE POULTRY INDUSTRY",
+    "ACCELERATING THE ADOPTION OF IN-OVO SEXING IN CHILE AND LATIN AMERICA",
   "header.contact": "CONTACT US",
   "header.mission": "LEARN MORE",
   "challenge.description":
@@ -56,16 +57,17 @@ const es = {
   "nav.about": "quiénes somos",
   "nav.mission": "qué hacemos",
   "nav.donate": "donar",
-  "header.lead": "Programa de incidencia corporativa",
+  "header.lead":
+    "Una solución tecnológica al descarte de pollitos macho que mejora la eficiencia, la competitividad y la sostenibilidad en la industria avícola.",
   "header.title":
-    "ACELERANDO LA ADOPCIÓN DE SEXADO <i>IN OVO</i> EN LA INDUSTRIA AVÍCOLA",
+    "ACELERANDO LA ADOPCIÓN DE SEXADO <i>IN OVO</i> EN CHILE Y AMÉRICA LATINA",
   "header.contact": "CONTÁCTANOS",
   "header.mission": "CONOCE MÁS",
   "challenge.description":
     "La industria del huevo enfrenta cada año un desafío estructural: el 50% de los polluelos incubados para obtener gallinas ponedoras son machos. Estos pollitos son identificados manualmente y descartados recién nacidos, pues no ponen huevos y pertenecen a líneas genéticas que no son rentables para la producción de carne. </br>Para las empresas incubadoras, esto significa destinar infraestructura, espacio, energía y mano de obra especializada en un proceso que no genera un beneficio directo. Esta práctica también plantea desafíos crecientes en materia de sostenibilidad , bienestar animal y percepción pública.",
   "challenge.title": "Un desafío estructural que se puede resolver",
   "cta.item1.description":
-    "Las  tecnologías de sexado <i>in ovo</i> resuelven esta problemática identificando el sexo del embrión durante la incubación y retirándolo tempranamente si es macho. Esto mejora la eficiencia productiva mediante la optimización de recursos, crea nuevas oportunidades de manejo, reduce el impacto ambiental, evita el sufrimiento animal y fortalece el posicionamiento de la industria frente a las nuevas exigencias del mercado. ",
+    "Las tecnologías de sexado <i>in ovo</i> resuelven esta problemática identificando el sexo del embrión durante la incubación y retirándolo tempranamente si es macho. Esto mejora la eficiencia productiva mediante la optimización de recursos, crea nuevas oportunidades de manejo, reduce el impacto ambiental, evita el sufrimiento animal y fortalece el posicionamiento de la industria frente a las nuevas exigencias del mercado. ",
   "stats.item1.title": "40%",
   "stats.item1.description":
     "Penetración de mercado en 5 años en la Unión Europea. Se estima que más de 281 millones de embriones macho han sido retirados antes de la eclosión.",
@@ -107,9 +109,10 @@ const pt = {
   "nav.about": "quem somos",
   "nav.mission": "que fazemos",
   "nav.donate": "doar",
-  "header.lead": "Programa de outreach corporativo",
+  "header.lead":
+    "Uma solução tecnológica ao abate de pintinhos machos que melhora a eficiência, a competitividade e a sustentabilidade na indústria avícola.",
   "header.title":
-    "ACELERANDO A ADOÇÃO DA SEXAGEM <i>IN OVO</i> NA INDÚSTRIA AVÍCOLA",
+    "ACELERANDO A ADOÇÃO DA SEXAGEM <i>IN OVO</i> EM CHILE E NA AMÉRICA LATINA",
   "header.contact": "FALE CONOSCO",
   "header.mission": "CONHEÇA MAIS",
   "challenge.description":

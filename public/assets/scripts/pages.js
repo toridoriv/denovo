@@ -1,7 +1,7 @@
 const home = `
 <header class="bg-darkgrey-text-almost-white hero">
   <h1 data-i18n="header.title"></h1>
-  <h2 data-i18n="header.title"></h2>
+  <h2 data-i18n="header.lead"></h2>
   <div class="hero-buttons">
     <a class="button" href="#/contact" data-i18n="header.contact"></a>
     <a class="button" href="#/mission" data-i18n="header.mission"></a>
