@@ -43,7 +43,7 @@ const home = `
   </section>
 </section>
 <section>
-  <article class="bg-platinum-text-darkgrey card">
+  <article class="organization-description card">
     <h3 data-i18n="cta.item2.title"></h3>
     <p data-i18n="cta.item2.description"></p>
     <a data-i18n="cta.donate" class="button" href="https://www.every.org/laboratory-of-social-entrepreneurship/f/denovo-ending-the-killing"
