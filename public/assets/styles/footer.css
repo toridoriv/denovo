@@ -17,8 +17,6 @@
   font-size: 0.6rem;
 }
 
-
-
 @media screen and (width >= 800px) {
   .company-info {
     display: grid;

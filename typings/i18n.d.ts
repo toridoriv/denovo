@@ -14,7 +14,9 @@ declare global {
       "header.title": string;
       "header.contact": string;
       "header.mission": string;
-      "intro.description": string;
+      "intro.column1.description": string;
+      "intro.column2.description": string;
+      "intro.column3.description": string;
       "challenge.title": string;
       "challenge.description": string;
       "stats.item1.title": string;

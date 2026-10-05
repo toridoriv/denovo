@@ -9,8 +9,9 @@ const home = `
 </header>
 <section class="bg-almost-white-text-darkgrey main-section">
   <article id="intro" class="intro">
-    <p data-i18n="intro.description"></p>
-    <div id="decorative-image"></div>
+    <p data-i18n="intro.column1.description"></p>
+    <p data-i18n="intro.column2.description"></p>
+    <p data-i18n="intro.column3.description"></p>
   </article>
   <article id="challenge" class="bg-destiny-text-darkgrey card topography">
     <h2 data-i18n="challenge.title"></h2>

@@ -27,8 +27,12 @@ const en = {
     "regions with the highest concentration of the problem",
   "stats.source": "Source",
   "cta.item1.title": "The Solution",
-  "intro.description":
-    "DeNovo works jointly with incubators, producers, retail and technology suppliers in identifying and overcoming barriers for the adoption of in-ovo sexing.</br>We put national and international players in touch to facilitate the creation of strategic alliances that promote the cost-effectiveness of adopting these technologies. We also provide technical information, market research and lessons learned in other markets where these technologies have already been adopted and have proven their viability.</br> </br>We are an independent non-profit organization with no commercial ties to these technologies. Our commitment is accelerating the transition towards in-ovo sexing, effectively and reliably.",
+  "intro.column1.description":
+    "DeNovo works jointly with incubators, producers, retail and technology suppliers in identifying and overcoming barriers for the adoption of in-ovo sexing.",
+  "intro.column2.description":
+    "We put national and international players in touch to facilitate the creation of strategic alliances that promote the cost-effectiveness of adopting these technologies.",
+  "intro.column3.description":
+    "We also provide technical information, market research and lessons learned in other markets where these technologies have already been adopted and have proven their viability.",
   "cta.discover": "Discover the solution",
   "cta.item2.title": "Support us",
   "cta.item2.description":
@@ -79,8 +83,12 @@ const es = {
     "2025 es el año en que llegó la primera máquina de sexado <i>in ovo</i> a Brasil; los primeros en Latinoamérica.",
   "stats.source": "Fuente",
   "cta.item1.title": "La solución",
-  "intro.description":
-    "DeNovo trabaja con incubadoras, productores, retail y proveedores tecnológicos para identificar y superar las barreras que dificultan la adopción del sexado <i>in ovo</i>. </br>Conectamos a actores nacionales e internacionales, facilitando la creación de alianzas estratégicas que potencien la rentabilidad de adoptar estas tecnologías. También entregamos información técnica, estudios de mercado y lecciones aprendidas en otros mercados que ya las han adoptado y demostrado su viabilidad.</br></br>Somos una organización independiente, sin fines de lucro y sin vinculación comercial con las distintas tecnologías. Nuestro compromiso es acelerar la transición hacia el sexado in ovo de la manera más efectiva y confiable.",
+  "intro.column1.description":
+    "DeNovo trabaja con incubadoras, productores, retail y proveedores tecnológicos para identificar y superar las barreras que dificultan la adopción del sexado <i>in ovo</i>.",
+  "intro.column2.description":
+    "Conectamos a actores nacionales e internacionales, facilitando la creación de alianzas estratégicas que potencien la rentabilidad de adoptar estas tecnologías.",
+  "intro.column3.description":
+    "También entregamos información técnica, estudios de mercado y lecciones aprendidas en otros mercados que ya las han adoptado y demostrado su viabilidad.",
   "cta.discover": "Descubre la solución",
   "cta.item2.title": "Apóyanos",
   "cta.item2.description":
@@ -129,8 +137,12 @@ const pt = {
   "stats.item3.description": "regiões com a maior concentração do problema",
   "stats.source": "Fonte",
   "cta.item1.title": "A solução",
-  "intro.description":
-    "DeNovo trabalha com incubatórios, produtores, empresas de varejo e fornecedores de tecnologia para identificar e superar as barreiras para sua adoção.</br>Conectamos atores nacionais e internacionais, promovendo a formação de parcerias estratégicas que potencializem a rentabilidade da implementação dessas tecnologias. Também fornecemos informações técnicas, estudos de mercado e aprendizados de outros mercados que já as adotaram e demonstraram sua viabilidade.</br></br>Somos uma organização independente, sem fins lucrativos e sem vínculos comerciais com nenhuma das tecnologias disponíveis. Nosso compromisso é acelerar a transição para a sexagem <i>in ovo</i> da maneira mais efetiva e confiável.",
+  "intro.column1.description":
+    "DeNovo trabalha com incubatórios, produtores, empresas de varejo e fornecedores de tecnologia para identificar e superar as barreiras para sua adoção.",
+  "intro.column2.description":
+    "Conectamos atores nacionais e internacionais, promovendo a formação de parcerias estratégicas que potencializem a rentabilidade da implementação dessas tecnologias. ",
+  "intro.column3.description":
+    "Também fornecemos informações técnicas, estudos de mercado e aprendizados de outros mercados que já as adotaram e demonstraram sua viabilidade.",
   "cta.discover": "Descobra a solução",
   "cta.item2.title": "Apoie-nos",
   "cta.item2.description":
