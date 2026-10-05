@@ -17,6 +17,13 @@ const home = `
     <h2 data-i18n="challenge.title"></h2>
     <p data-i18n="challenge.description"></p>
   </article>
+</section>
+<section id="cta" class="circuit">
+  <article class="bg-darkgrey-text-almost-white description">
+    <img src="assets/images/eggs-001.jpg" alt="" />
+    <h3 data-i18n="cta.item1.title"></h3>
+    <p data-i18n="cta.item1.description"></p>
+  </article>
   <section id="stats" class="stats">
     <figure class="stats-card">
       <img src="assets/images/EU-000.png" alt="" />
@@ -35,19 +42,14 @@ const home = `
     </figure>
   </section>
 </section>
-<section id="cta" class="circuit">
-  <article class="bg-darkgrey-text-almost-white description">
-    <img src="assets/images/eggs-001.jpg" alt="" />
-    <h3 data-i18n="cta.item1.title"></h3>
-    <p data-i18n="cta.item1.description"></p>
-  </article>
-  <article class="bg-almost-white-text-darkgrey card">
+<section>
+  <article class="bg-platinum-text-darkgrey card">
     <h3 data-i18n="cta.item2.title"></h3>
     <p data-i18n="cta.item2.description"></p>
     <a data-i18n="cta.donate" class="button" href="https://www.every.org/laboratory-of-social-entrepreneurship/f/denovo-ending-the-killing"
-          target="_blank"></a>
+      target="_blank"></a>
   </article>
-</section>`;
+  </section>`;
 
 const about = `
 <section id="people" class="people">

@@ -17,7 +17,7 @@
   align-items: center;
   border-radius: 18px;
   overflow: hidden;
-  margin: 100px 0;
+  margin: 50px 0;
   max-width: 300px;
   flex-basis: 100%;
 
@@ -46,6 +46,10 @@
     gap: 20px;
     * {
       justify-content: space-evenly;
+    }
+
+    .stats-card {
+      margin: 100px 0;
     }
   }
   .centered {
