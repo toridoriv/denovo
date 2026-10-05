@@ -9,6 +9,9 @@
   }
 }
 
+.intro-column {
+  text-align: center;
+}
 @media screen and (width >= 800px) {
   .intro {
     display: flex;

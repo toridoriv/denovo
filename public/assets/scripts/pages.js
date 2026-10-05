@@ -9,10 +9,19 @@ const home = `
 </header>
 <section class="bg-almost-white-text-darkgrey main-section">
   <article id="intro" class="intro">
-    <p data-i18n="intro.column1.description"></p>
-    <p data-i18n="intro.column2.description"></p>
-    <p data-i18n="intro.column3.description"></p>
-  </article>
+    <div class="intro-column">
+      <i class="fa-solid fa-gear"></i>
+      <p data-i18n="intro.column1.description"></p>
+    </div>
+    <div class="intro-column">
+      <i class="fa-solid fa-people-arrows"></i>
+      <p data-i18n="intro.column2.description"></p>
+    </div>
+    <div class="intro-column">
+      <i class="fa-solid fa-database"></i>
+      <p data-i18n="intro.column3.description"></p>
+    </div>
+    </article>
   <article id="challenge" class="bg-destiny-text-darkgrey card topography">
     <h2 data-i18n="challenge.title"></h2>
     <p data-i18n="challenge.description"></p>
