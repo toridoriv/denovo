@@ -18,17 +18,17 @@ const home = `
   </article>
   <section id="stats" class="stats">
     <figure class="stats-card">
-      <img src="assets/images/chic-000.jpg" alt="" />
+      <img src="assets/images/EU-000.png" alt="" />
       <h3 data-i18n="stats.item1.title"></h3>
       <p data-i18n="stats.item1.description"></p>
     </figure>
     <figure class="stats-card">
-      <img src="assets/images/eggs-000.jpg">
+      <img src="assets/images/chic-002.png">
       <h3 data-i18n="stats.item2.title"></h3>
       <p data-i18n="stats.item2.description"></p>
     </figure>
     <figure class="stats-card">
-      <img src="assets/images/map-000.png" alt="" />
+      <img src="assets/images/brasil-000.png" alt="" />
       <h3 data-i18n="stats.item3.title"></h3>
       <p data-i18n="stats.item3.description"></p>
     </figure>

@@ -66,13 +66,15 @@ const es = {
   "challenge.title": "Un desafío estructural que se puede resolver",
   "cta.item1.description":
     "Las  tecnologías de sexado <i>in ovo</i> resuelven esta problemática identificando el sexo del embrión durante la incubación y retirándolo tempranamente si es macho. Esto mejora la eficiencia productiva mediante la optimización de recursos, crea nuevas oportunidades de manejo, reduce el impacto ambiental, evita el sufrimiento animal y fortalece el posicionamiento de la industria frente a las nuevas exigencias del mercado. ",
-  "stats.item1.title": "11,8 M",
-  "stats.item1.description": "pollitos macho eliminados cada año en Chile",
-  "stats.item2.title": "3,2%",
+  "stats.item1.title": "40%",
+  "stats.item1.description":
+    "Penetración de mercado en 5 años en la Unión Europea. Se estima que más de 281 millones de embriones macho han sido retirados antes de la eclosión.",
+  "stats.item2.title": "9 países",
   "stats.item2.description":
-    "tasa de crecimiento anual de la producción<br>(2014–2024)",
-  "stats.item3.title": "R.M. y Valparaíso",
-  "stats.item3.description": "regiones con mayor concentración del problema",
+    "Ya cuentan con tecnologías de sexado <i>in ovo</i> comercialmente activas. China, Canadá y Japón podrían sumarse en los próximos años.",
+  "stats.item3.title": "América Latina",
+  "stats.item3.description":
+    "2025 es el año en que llegó la primera máquina de sexado <i>in ovo</i> a Brasil; los primeros en Latinoamérica.",
   "stats.source": "Fuente",
   "cta.item1.title": "La solución",
   "intro.description":
@@ -115,7 +117,7 @@ const pt = {
   "challenge.title": "Um desafio estrutural que pode ser resolvido",
   "cta.item1.description":
     "As tecnologias de sexagem <i>in ovo</i> solucionam essa problemática ao identificar o sexo do embrião ainda durante a incubação e removê-lo precocemente se for macho. Isso melhora a eficiência produtiva otimizando recursos, cria novas oportunidades de manejo, reduz o impacto ambiental, evita o sofrimento animal e fortalece o posicionamento do setor diante das novas exigências do mercado.",
-  "stats.item1.title": "11,8 M",
+  "stats.item1.title": "40%",
   "stats.item1.description": "pintinhos machos descartados cada ano no Chile",
   "stats.item2.title": "3,2%",
   "stats.item2.description":
