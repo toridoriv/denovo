@@ -1,11 +1,8 @@
 .hero {
   box-sizing: border-box;
   padding: 2rem;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
+  display: block;
   text-align: start;
-  align-items: flex-start;
   background-image:
     linear-gradient(rgba(64, 64, 64, 0.2), rgba(64, 64, 64, 0.5)),
     url("../images/chickens-000.jpg");
@@ -32,7 +29,7 @@
   .hero-buttons {
     display: flex;
     flex-wrap: wrap;
-    margin: 10px;
+    margin: 50px 0;
   }
 }
 
@@ -40,9 +37,7 @@
   .hero {
     box-sizing: border-box;
     padding: 5rem 5rem;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: block;
     text-align: start;
     align-items: flex-start;
     height: auto;
@@ -54,13 +49,14 @@
       margin: 10;
       flex-basis: 100%;
       font-size: 3em;
-      width: 50%;
+      max-width: 50vw;
     }
 
     h2 {
       font-family: "Rethink Sans", Georgia, "Times New Roman", Times, serif;
       margin: 10px;
       flex-basis: 100%;
+      max-width: 50vw;
     }
     img {
       width: 100%;
