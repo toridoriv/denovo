@@ -55,11 +55,13 @@ const about = `
     <figure class="person melt">
       <img src="" alt="" />
       <h3 data-i18n="team.samuel.name"></h3>
+      <h4 data-i18n="team.samuel.title"></h4>
       <p data-i18n="team.samuel.description"></p>
     </figure>
     <figure class="person melt">
       <img src="">
       <h3 data-i18n="team.diego.name"></h3>
+      <h4 data-i18n="team.diego.title"></h4>
       <p data-i18n="team.diego.description"></p>
     </figure>
   </section>

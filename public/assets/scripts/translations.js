@@ -39,13 +39,13 @@ const en = {
     "Corporate advocacy program to accelerate the adoption of in-ovo sexing technologies in the poultry industry.",
   "team.about": "The team",
   "team.samuel.name": "Samuel Álvarez",
-  "team.samuel.title": "",
+  "team.samuel.title": "Executive Manager",
   "team.samuel.description":
-    "Worked for over 7 years on the waste management sector, leading logistics operations and customer relationships. Worked and participated as a volunteer in diverse initiatives of the social sphere while also persuing a parallel career as a professional musician",
+    "Apart from cofounding DeNovo, he's worked for more than 7 years leading logistics operations and customer relations in the organic waste management sector. He also has a wide experience in the musical and cultural domain and with initiatives of the social sector",
   "team.diego.name": "Diego Andrade",
-  "team.diego.title": "",
+  "team.diego.title": "Operations Manager",
   "team.diego.description":
-    "Diego is a translator with a degree in Applied Linguistics and more than 14 years of professional experience. He has spent his career helping companies and private individuals get their ideas and projects across language barriers, in such sectors as renewable energies, winemaking, pharmaceuticals, philosophy and literature. He’s motivated to leverage his skills in cross-cultural communication and customer management to help local industries make the leap towards innovations that improve the welfare of animals. ",
+    "As a professional translator, he has 15 years of experience serving as a cross-cultural bridge for clients of the most diverse sectors, including renewable energies, wine-making, pharmaceuticals, philosophy and more. He's been involved in the social sector for more than 20 years.",
 };
 
 /**
@@ -88,12 +88,13 @@ const es = {
     "Programa de incidencia corporativa para acelerar la adopción de tecnologías de sexado <i>in ovo</i> en el sector avícola.",
   "team.about": "El equipo",
   "team.samuel.name": "Samuel Álvarez",
-  "team.samuel.title": "",
+  "team.samuel.title": "Director Ejecutivo",
   "team.samuel.description":
-    "Ha trabajado por más de 7 años en la industria de manejo de residuos, liderando operaciones de logística y atención a clientes. También ha trabajado y participado como voluntario en diversas iniciativas en el sector social, además de tener una carrera paralela como músico profesional.",
+    "Además de fundar DeNovo, ha trabajado por más de 7 años en operaciones de logística y atención a clientes en el sector de gestión de residuos orgánicos. También cuenta con amplia experiencia en el ámbito músico-cultural y en iniciativas del sector social.",
   "team.diego.name": "Diego Andrade",
-  "team.diego.title": "",
-  "team.diego.description": "",
+  "team.diego.title": "Director de Operaciones",
+  "team.diego.description":
+    "Como traductor profesional, cuenta con 15 años de experiencia sirviendo como puente intercultural para clientes de diversas áreas, incluyendo las energías renovables, vitivinicultura, farmacéuticos, filosofía y más. En paralelo, ha estado nvolucrado en el sector social desde hace más de 20 años.",
 };
 
 /**
@@ -136,11 +137,13 @@ const pt = {
     "Programa de outreach corporativo para acelerar a adoção de tecnologias de sexagem <i>in ovo</i> na indústria avícola.",
   "team.about": "A equipe",
   "team.samuel.name": "Samuel Álvarez",
-  "team.samuel.title": "",
-  "team.samuel.description": "",
+  "team.samuel.title": "Diretor Executivo",
+  "team.samuel.description":
+    "Além de ser cofundador da DeNovo, ele trabalha há mais de 7 anos em operações de logística e atendimento ao cliente no setor de gestão de residuos orgânicos. Também possui amplia experiência na área musical e cultural e em iniciativas do setor social.",
   "team.diego.name": "Diego Andrade",
-  "team.diego.title": "",
-  "team.diego.description": "",
+  "team.diego.title": "Diretor de Operações",
+  "team.diego.description":
+    "Como tradutor profissional, conta como 15 anos de experiência atuando como ponte intercultural para clientes de diversas áreas, incluindo energías renováveis, vitivinicultura, farmacêuticos, filosofia, entre outros. Paralelamente, dedica-se ao setor social há mais de 20 anos.",
 };
 
 /**
