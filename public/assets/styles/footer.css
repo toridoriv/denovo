@@ -17,13 +17,7 @@
   font-size: 0.6rem;
 }
 
-#language-selector {
-  color: #404040;
-  font-size: 1rem;
-  font-family: "League Spartan", Verdana, Geneva, Tahoma, sans-serif;
-  background-color: #e5e3e2;
-  border: none;
-}
+
 
 @media screen and (width >= 800px) {
   .company-info {

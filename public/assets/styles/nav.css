@@ -15,7 +15,7 @@ nav {
   display: none;
   width: 90%;
   margin: 0;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   list-style: none;
   list-style-type: none;
   background-color: #f9f7f6;
@@ -56,6 +56,23 @@ nav {
   cursor: pointer;
 }
 
+#language-selector {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 20px;
+  margin: 0 24px;
+  color: #404040;
+  font-size: 1.4rem;
+  font-family: "League Spartan", Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #f9f7f6;
+  border: none;
+}
+
+#language-selector:active {
+  border: none;
+}
+
 @media screen and (width >= 800px) {
   nav {
     align-items: center;
@@ -85,6 +102,11 @@ nav {
 
   .nav-links li a:hover {
     background-color: #f9f7f6;
+  }
+
+  #language-selector {
+      background-color: #f4bc29;
+      border: 2px solid #f9f7f6;
   }
 }
 
