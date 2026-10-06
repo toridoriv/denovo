@@ -18,11 +18,17 @@
 }
 
 #language-selector {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 20px;
+  margin: 0 24px;
   color: #404040;
-  font-size: 1rem;
+  font-size: 1.4rem;
   font-family: "League Spartan", Verdana, Geneva, Tahoma, sans-serif;
-  background-color: #e5e3e2;
-  border: none;
+  background-color: #f4bc29;
+  border: 2px solid #f9f7f6;
+  text-align: center;
 }
 
 @media screen and (width >= 800px) {

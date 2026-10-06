@@ -1,7 +1,7 @@
 const home = `
 <header class="bg-darkgrey-text-almost-white hero">
   <h1 data-i18n="header.title"></h1>
-  <h2 data-i18n="header.title"></h2>
+  <h2 data-i18n="header.lead"></h2>
   <div class="hero-buttons">
     <a class="button" href="#/contact" data-i18n="header.contact"></a>
     <a class="button" href="#/mission" data-i18n="header.mission"></a>
@@ -9,31 +9,23 @@ const home = `
 </header>
 <section class="bg-almost-white-text-darkgrey main-section">
   <article id="intro" class="intro">
-    <p data-i18n="intro.description"></p>
-    <div id="decorative-image"></div>
-  </article>
+    <div class="intro-column">
+      <i class="fa-solid fa-gear"></i>
+      <p data-i18n="intro.column1.description"></p>
+    </div>
+    <div class="intro-column">
+      <i class="fa-solid fa-people-arrows"></i>
+      <p data-i18n="intro.column2.description"></p>
+    </div>
+    <div class="intro-column">
+      <i class="fa-solid fa-database"></i>
+      <p data-i18n="intro.column3.description"></p>
+    </div>
+    </article>
   <article id="challenge" class="bg-destiny-text-darkgrey card topography">
     <h2 data-i18n="challenge.title"></h2>
     <p data-i18n="challenge.description"></p>
   </article>
-  <section id="stats" class="stats">
-    <figure class="stats-card">
-      <img src="assets/images/chic-000.jpg" alt="" />
-      <h3 data-i18n="stats.item1.title"></h3>
-      <p data-i18n="stats.item1.description"></p>
-    </figure>
-    <figure class="stats-card">
-      <img src="assets/images/eggs-000.jpg">
-      <h3 data-i18n="stats.item2.title"></h3>
-      <p data-i18n="stats.item2.description"></p>
-    </figure>
-    <figure class="stats-card">
-      <img src="assets/images/map-000.png" alt="" />
-      <h3 data-i18n="stats.item3.title"></h3>
-      <p data-i18n="stats.item3.description"></p>
-    </figure>
-    <figcaption class="centered"><span data-i18n="stats.source"></span>: ChileHuevos 2025, INE 2025</figcaption>
-  </section>
 </section>
 <section id="cta" class="circuit">
   <article class="bg-darkgrey-text-almost-white description">
@@ -41,13 +33,32 @@ const home = `
     <h3 data-i18n="cta.item1.title"></h3>
     <p data-i18n="cta.item1.description"></p>
   </article>
-  <article class="bg-almost-white-text-darkgrey card">
+  <section id="stats" class="stats">
+    <figure class="stats-card">
+      <img src="assets/images/EU-000.png" alt="" />
+      <h3 data-i18n="stats.item1.title"></h3>
+      <p data-i18n="stats.item1.description"></p>
+    </figure>
+    <figure class="stats-card">
+      <img src="assets/images/chic-002.png">
+      <h3 data-i18n="stats.item2.title"></h3>
+      <p data-i18n="stats.item2.description"></p>
+    </figure>
+    <figure class="stats-card">
+      <img src="assets/images/brasil-000.png" alt="" />
+      <h3 data-i18n="stats.item3.title"></h3>
+      <p data-i18n="stats.item3.description"></p>
+    </figure>
+  </section>
+</section>
+<section>
+  <article class="organization-description card">
     <h3 data-i18n="cta.item2.title"></h3>
     <p data-i18n="cta.item2.description"></p>
     <a data-i18n="cta.donate" class="button" href="https://www.every.org/laboratory-of-social-entrepreneurship/f/denovo-ending-the-killing"
-          target="_blank"></a>
+      target="_blank"></a>
   </article>
-</section>`;
+  </section>`;
 
 const about = `
 <section id="people" class="people">
@@ -55,11 +66,13 @@ const about = `
     <figure class="person melt">
       <img src="" alt="" />
       <h3 data-i18n="team.samuel.name"></h3>
+      <h4 data-i18n="team.samuel.title"></h4>
       <p data-i18n="team.samuel.description"></p>
     </figure>
     <figure class="person melt">
       <img src="">
       <h3 data-i18n="team.diego.name"></h3>
+      <h4 data-i18n="team.diego.title"></h4>
       <p data-i18n="team.diego.description"></p>
     </figure>
   </section>
