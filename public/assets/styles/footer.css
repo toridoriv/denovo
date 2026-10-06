@@ -28,6 +28,7 @@
   font-family: "League Spartan", Verdana, Geneva, Tahoma, sans-serif;
   background-color: #f4bc29;
   border: 2px solid #f9f7f6;
+  text-align: center;
 }
 
 @media screen and (width >= 800px) {
