@@ -10,6 +10,8 @@
   .card {
     border-radius: 18px;
     padding: 3rem;
-    margin: 5rem 10rem;
+    margin: 20rem;
+    margin-top: auto;
+    margin-bottom: 3rem;
   }
 }
