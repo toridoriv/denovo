@@ -17,8 +17,8 @@
   align-items: center;
   border-radius: 18px;
   overflow: hidden;
-  margin: 50px 0;
-  max-width: 300px;
+  margin: 50px;
+  max-width: auto;
   flex-basis: 100%;
 
   * {
@@ -40,7 +40,7 @@
 @media screen and (width >= 800px) {
   .stats {
     display: grid;
-    grid-template-columns: repeat(3, 300px);
+    grid-template-columns: repeat(3, 350px);
     margin: 0;
     justify-content: center;
     gap: 80px;
