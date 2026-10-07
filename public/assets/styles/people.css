@@ -18,6 +18,7 @@
   overflow: hidden;
   width: 90%;
   max-width: 500px;
+  justify-content: flex-start;
 
   * {
     max-width: 80%;
@@ -47,10 +48,6 @@
     h1 {
       flex-basis: 100%;
       text-align: center;
-    }
-
-    .person {
-      justify-content: space-between;
     }
   }
   .centered {

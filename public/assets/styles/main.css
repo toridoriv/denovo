@@ -89,6 +89,10 @@ body {
 
 .organization-description {
   font-size: 1.5rem;
+
+  a {
+    padding: 2rem 5rem;
+  }
 }
 
 ::selection {
@@ -98,5 +102,12 @@ body {
 @media screen and (width >= 800px) {
   .main-section {
     font-size: 1.5rem;
+  }
+
+  .organization-description {
+    a {
+      margin: 40px 0;
+      align-self: center;
+    }
   }
 }
