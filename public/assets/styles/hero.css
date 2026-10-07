@@ -19,11 +19,13 @@
     text-align: start;
     font-size: 2rem;
     max-width: 100vw;
+    margin-bottom: 3rem;
   }
 
   h2 {
     font-family: "Rethink Sans", Georgia, "Times New Roman", Times, serif;
     margin: 10px;
+    margin-bottom: 3rem;
   }
 
   .hero-buttons {
