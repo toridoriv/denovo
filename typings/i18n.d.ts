@@ -41,6 +41,11 @@ declare global {
       "team.diego.name": string;
       "team.diego.title": string;
       "team.diego.description": string;
+      "mission.title": string;
+      "mission.intro.title": string;
+      "mission.intro.column1.description": string;
+      "mission.intro.column2.description": string;
+      "mission.intro.column3.description": string;
     };
 
     type TranslationKey = keyof TranslationSchema;
