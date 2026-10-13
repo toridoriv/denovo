@@ -4,7 +4,7 @@
 const en = {
   "nav.home": "home",
   "nav.about": "Who We Are",
-  "nav.mission": "What We Do",
+  "nav.mission": "In-Ovo Sexing",
   "nav.donate": "Donate",
   "header.lead":
     "A technological solution to the problem of male chic culling that improves efficiency, competitiveness and susteinability in the poultry industry.",
@@ -52,6 +52,13 @@ const en = {
   "team.diego.title": "Operations Manager",
   "team.diego.description":
     "As a professional translator, he has 15 years of experience serving as a cross-cultural bridge for clients of the most diverse sectors, including renewable energies, wine-making, pharmaceuticals, philosophy and more. He's been involved in the social sector for more than 20 years.",
+  "mission.title": "In-Ovo Sexing",
+  "mission.intro.title": "International Scene",
+  "mission.intro.column1.description":
+    "According to recent research by Innovate Animal Ag, nearly 130 million of the 340 million layer hens in the European Union were sexed in ovo, indicating a market penetration of 40% in just 5 years. Legal bans on chick culling in Germany and France provided the initial momentum, but an increasing number of European countries have begun implementing these technologies voluntarily, such as Norway, Switzerland, the Netherlands, and Belgium",
+  "mission.intro.column2.description":
+    "In 2024, the first in ovo sexing machines were installed in the United States, while Brazil became the first Latin American country to do the same in 2025. Australia followed this trend in 2026. Countries such as China, Japan, and Canada are in commercial trial stages with new technologies, demonstrating and consolidating global interest in solving the culling problem through in ovo sexing.",
+  "mission.intro.column3.description": "",
 };
 
 /**
@@ -60,7 +67,7 @@ const en = {
 const es = {
   "nav.home": "inicio",
   "nav.about": "Quiénes somos",
-  "nav.mission": "Qué hacemos",
+  "nav.mission": "Sexado <i>in ovo </i>",
   "nav.donate": "Donar",
   "header.lead":
     "Una solución tecnológica al descarte de pollitos macho que mejora la eficiencia, la competitividad y la sostenibilidad en la industria avícola.",
@@ -108,6 +115,13 @@ const es = {
   "team.diego.title": "Director de Operaciones",
   "team.diego.description":
     "Como traductor profesional, cuenta con 15 años de experiencia sirviendo como puente intercultural para clientes de diversas áreas, incluyendo las energías renovables, vitivinicultura, farmacéuticos, filosofía y más. En paralelo, ha estado nvolucrado en el sector social desde hace más de 20 años.",
+  "mission.title": "Sexado <i>in ovo</i>",
+  "mission.intro.title": "Panorama internacional",
+  "mission.intro.column1.description":
+    "Según una investigación reciente de Innovate Animal Ag, cerca de 130 millones de las 340 millones de gallinas ponedoras en la Unión Europea fueron sexadas in ovo, lo que indica una penetración de mercado del 40% en apenas 5 años. Prohibiciones legales al descarte de pollitos en Alemania y Francia dieron el impulso inicial, pero cada vez más países europeos han comenzado a implementar estas tecnologías de manera voluntaria, como Noruega, Suiza, Países Bajos y Bélgica.",
+  "mission.intro.column2.description":
+    "En 2024 se instalaron las primeras máquinas de sexado <i>in ovo</i> en los Estados Unidos, mientras que Brasil se convirtió en el primer país latinoamericano en hacer lo propio en 2025. Australia siguió con esta tendencia en 2026. Países como China, Japón y Canadá están en etapas de prueba comercial con tecnologías nuevas, demostrando y consolidando el interés a nivel mundial por resolver el problema del descarte a través del sexado <i>in ovo</i>.",
+  "mission.intro.column3.description": "",
 };
 
 /**
@@ -116,7 +130,7 @@ const es = {
 const pt = {
   "nav.home": "home",
   "nav.about": "Quem somos",
-  "nav.mission": "Que fazemos",
+  "nav.mission": "Sexagem <i>in ovo</i>",
   "nav.donate": "Doar",
   "header.lead":
     "Uma solução tecnológica ao abate de pintinhos machos que melhora a eficiência, a competitividade e a sustentabilidade na indústria avícola.",
@@ -164,6 +178,13 @@ const pt = {
   "team.diego.title": "Diretor de Operações",
   "team.diego.description":
     "Como tradutor profissional, conta como 15 anos de experiência atuando como ponte intercultural para clientes de diversas áreas, incluindo energías renováveis, vitivinicultura, farmacêuticos, filosofia, entre outros. Paralelamente, dedica-se ao setor social há mais de 20 anos.",
+  "mission.title": "Sexagem <i>in ovo</i>",
+  "mission.intro.title": "Panorama internacional",
+  "mission.intro.column1.description":
+    "Segundo uma pesquisa recente da Innovate Animal Ag, cerca de 130 milhões das 340 milhões de galinhas poedeiras na União Europeia foram sexadas <i>in ovo</i>, o que indica uma penetração de mercado de 40% em apenas 5 anos. As proibições legais ao descarte de pintinhos na Alemanha e na França deram o impulso inicial, mas cada vez mais países europeus começaram a implementar essas tecnologias de forma voluntária, como Noruega, Suíça, Países Baixos e Bélgica.",
+  "mission.intro.column2.description":
+    "Em 2024, as primeiras máquinas de sexagem <i>in ovo</i> foram instaladas nos Estados Unidos, enquanto o Brasil se tornou o primeiro país latino-americano a fazer o mesmo em 2025. A Austrália seguiu essa tendência em 2026. Países como China, Japão e Canadá estão em estágios de teste comercial com novas tecnologias, demonstrando e consolidando o interesse mundial em resolver o problema do descarte por meio da sexagem <i>in ovo</i>.",
+  "mission.intro.column3.description": "",
 };
 
 /**

@@ -78,10 +78,30 @@ const about = `
   </section>
 `;
 
+const mission = `
+<header class="bg-darkgrey-text-almost-white hero mission-hero">
+  <h1 data-i18n="mission.title"></h1>
+</header>
+<section class="bg-almost-white-text-darkgrey main-section">
+  <article id="intro" class="intro mission-intro">
+  <h1 data-i18n="mission.intro.title"></h1>
+    <div class="intro-column">
+      <p data-i18n="mission.intro.column1.description"></p>
+    </div>
+    <div class="intro-column">
+      <p data-i18n="mission.intro.column2.description"></p>
+    </div>
+    <div class="intro-column">
+      <p data-i18n="mission.intro.column3.description"></p>
+    </div>
+    </article>
+</section>
+`;
+
 const PAGES = Object.freeze({
   "/": home,
   "/about": about,
-  "/mission": `<h1 data-i18n="nav.mission"></h1>`,
+  "/mission": mission,
 });
 
 /**
