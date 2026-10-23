@@ -7,16 +7,16 @@ const en = {
   "nav.mission": "In-Ovo Sexing",
   "nav.donate": "Donate",
   "header.lead":
-    "A technological solution to the problem of male chic culling that improves efficiency, competitiveness and susteinability in the poultry industry.",
+    "A technological solution to the problem of male chick culling that improves efficiency, competitiveness and sustainability in the poultry industry.",
   "header.title":
     "Accelerating the adoption of in-ovo sexing in Chile and Latin America",
   "header.contact": "Contact us",
   "header.mission": "Learn more",
   "challenge.description":
-    "Each year, the egg industry faces a structural challenge: 50% of chicks incubated to be 'layer' chickens are male. These chicks are determined manually and discarded immediately after birth since they are unable to lay eggs and belong to a genetic breed that is unprofitable for the production of meat.<br />Incubators must allocate infrastructure, space, power and specialized labor to a process that yields them no direct benefits. The practice also presents rising challenges in matters of sustainability, animal welfare and public perception.",
+    "Each year, the egg industry faces a structural challenge: 50% of chicks incubated to be layer hens are male. These chicks are determined manually and discarded immediately after birth since they are unable to lay eggs and belong to a genetic breed that is unprofitable for the production of meat.<br />Incubators must allocate infrastructure, space, power and specialized labor to a process that yields them no direct benefits. The practice also presents rising challenges in matters of sustainability, animal welfare and public perception.",
   "challenge.title": "A structural challenge that can be solved",
   "cta.item1.description":
-    "In-ovo sexing technologies solve this problem by allowing identification of the embrio and its early removal during incubation. This innovation improves production efficiency by optimizing resources, creates new handling opportunities, reduces environmental impact, prevents animal suffering and strengthens the position of the sector in the face of new market demands.",
+    "In-ovo sexing technologies solve this problem by allowing identification of the embryo and its early removal during incubation. This innovation improves production efficiency by optimizing resources, creates new handling opportunities, reduces environmental impact, prevents animal suffering and strengthens the position of the sector in the face of new market demands.",
   "stats.item1.title": "40%",
   "stats.item1.description":
     "Market penetration in 5 years in the European Union. It is estimated that more than 281 million male embryos have been removed before hatching.",
