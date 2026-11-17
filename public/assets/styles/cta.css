@@ -74,5 +74,9 @@
     p {
       grid-column: span 3;
     }
+
+    h3 {
+      grid-column: span 2;
+    }
   }
 }

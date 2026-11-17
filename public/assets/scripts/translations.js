@@ -13,7 +13,7 @@ const en = {
   "header.contact": "Contact us",
   "header.mission": "Learn more",
   "challenge.description":
-    "Each year, the egg industry faces a structural challenge: 50% of chicks incubated to be layer hens are male. These chicks are determined manually and discarded immediately after birth since they are unable to lay eggs and belong to a genetic breed that is unprofitable for the production of meat.<br />Incubators must allocate infrastructure, space, power and specialized labor to a process that yields them no direct benefits. The practice also presents rising challenges in matters of sustainability, animal welfare and public perception.",
+    "Each year, the egg industry faces a structural challenge: 50% of chicks incubated to be layer hens are male. These chicks are determined manually and discarded immediately after birth since they are unable to lay eggs and belong to a genetic breed that is unprofitable for the production of meat.<br /><br />Incubators must allocate infrastructure, space, power and specialized labor to a process that yields them no direct benefits. The practice also presents rising challenges in matters of sustainability, animal welfare and public perception.",
   "challenge.title": "A structural challenge that can be solved",
   "cta.item1.description":
     "In-ovo sexing technologies solve this problem by allowing identification of the embryo and its early removal during incubation. This innovation improves production efficiency by optimizing resources, creates new handling opportunities, reduces environmental impact, prevents animal suffering and strengthens the position of the sector in the face of new market demands.",
@@ -47,7 +47,7 @@ const en = {
   "team.samuel.name": "Samuel Álvarez",
   "team.samuel.title": "Executive Manager",
   "team.samuel.description":
-    "Apart from cofounding DeNovo, he's worked for more than 7 years leading logistics operations and customer relations in the organic waste management sector. He also has a wide experience in the musical and cultural domain and with initiatives of the social sector",
+    "Apart from cofounding DeNovo, he's worked for more than 7 years leading logistics operations and customer relations in the organic waste management sector. He also has a wide experience in the musical and cultural domain and with initiatives of the social sector.",
   "team.diego.name": "Diego Andrade",
   "team.diego.title": "Operations Manager",
   "team.diego.description":
@@ -55,7 +55,7 @@ const en = {
   "mission.title": "In-Ovo Sexing",
   "mission.intro.title": "International Scene",
   "mission.intro.column1.description":
-    "According to recent research by Innovate Animal Ag, nearly 130 million of the 340 million layer hens in the European Union were sexed in ovo, indicating a market penetration of 40% in just 5 years. Legal bans on chick culling in Germany and France provided the initial momentum, but an increasing number of European countries have begun implementing these technologies voluntarily, such as Norway, Switzerland, the Netherlands, and Belgium",
+    "According to recent research by Innovate Animal Ag, nearly 130 million of the 340 million layer hens in the European Union were sexed in ovo, indicating a market penetration of 40% in just 5 years. Legal bans on chick culling in Germany and France provided the initial momentum, but an increasing number of European countries have begun implementing these technologies voluntarily, such as Norway, Switzerland, the Netherlands, and Belgium.",
   "mission.intro.column2.description":
     "In 2024, the first in ovo sexing machines were installed in the United States, while Brazil became the first Latin American country to do the same in 2025. Australia followed this trend in 2026. Countries such as China, Japan, and Canada are in commercial trial stages with new technologies, demonstrating and consolidating global interest in solving the culling problem through in ovo sexing.",
   "mission.intro.column3.description": "",
@@ -76,7 +76,7 @@ const es = {
   "header.contact": "Contáctanos",
   "header.mission": "Conoce más",
   "challenge.description":
-    "La industria del huevo enfrenta cada año un desafío estructural: el 50% de los polluelos incubados para obtener gallinas ponedoras son machos. Estos pollitos son identificados manualmente y descartados recién nacidos, pues no ponen huevos y pertenecen a líneas genéticas que no son rentables para la producción de carne. </br>Para las empresas incubadoras, esto significa destinar infraestructura, espacio, energía y mano de obra especializada en un proceso que no genera un beneficio directo. Esta práctica también plantea desafíos crecientes en materia de sostenibilidad , bienestar animal y percepción pública.",
+    "La industria del huevo enfrenta cada año un desafío estructural: el 50% de los polluelos incubados para obtener gallinas ponedoras son machos. Estos pollitos son identificados manualmente y descartados recién nacidos, pues no ponen huevos y pertenecen a líneas genéticas que no son rentables para la producción de carne. </br> </br>Para las empresas incubadoras, esto significa destinar infraestructura, espacio, energía y mano de obra especializada en un proceso que no genera un beneficio directo. Esta práctica también plantea desafíos crecientes en materia de sostenibilidad , bienestar animal y percepción pública.",
   "challenge.title": "Un desafío estructural que se puede resolver",
   "cta.item1.description":
     "Las tecnologías de sexado <i>in ovo</i> resuelven esta problemática identificando el sexo del embrión durante la incubación y retirándolo tempranamente si es macho. Esto mejora la eficiencia productiva mediante la optimización de recursos, crea nuevas oportunidades de manejo, reduce el impacto ambiental, evita el sufrimiento animal y fortalece el posicionamiento de la industria frente a las nuevas exigencias del mercado. ",
@@ -100,7 +100,7 @@ const es = {
   "cta.discover": "Descubre la solución",
   "cta.item2.title": "Apóyanos",
   "cta.item2.description":
-    "Somos una organización independiente, sin fines de lucro y sin vinculación comercial con las distintas tecnologías. Nuestro compromiso es acelerar la transición hacia el sexado in ovo de la manera más efectiva y confiable.",
+    "Somos una organización independiente, sin fines de lucro y sin vinculación comercial con las distintas tecnologías. Nuestro compromiso es acelerar la transición hacia el sexado <i>in ovo</i> de la manera más efectiva y confiable.",
   "cta.donate": "Donar",
   "footer.legal":
     "DeNovo es un proyecto patrocinado fiscalmente por Anti Entropy (EIN: 88-0967420), una organización sin fines de lucro 501(c)(3). Las donaciones son deducibles de impuestos según lo permitido por la ley.",
@@ -139,7 +139,7 @@ const pt = {
   "header.contact": "Fale conosco",
   "header.mission": "Conheça mais",
   "challenge.description":
-    "A indústria de ovos enfrenta um desafio estrutural a cada ano: 50% dos pintinhos incubados para obter galinhas poedeiras são machos. Esses pintinhos são identificados manualmente e descartados logo após nascerem, pois não botam ovos e pertencem a linhagens genéticas que não são rentáveis para a produção de carne.</br>Isso significa que os incubatórios dedicam infraestrutura, espaço, energia e mão de obra especializada a um processo que não gera benefícios diretos. Além disso, essa prática apresenta desafios crescentes em termos de sustentabilidade, bem-estar animal e percepção pública.",
+    "A indústria de ovos enfrenta um desafio estrutural a cada ano: 50% dos pintinhos incubados para obter galinhas poedeiras são machos. Esses pintinhos são identificados manualmente e descartados logo após nascerem, pois não botam ovos e pertencem a linhagens genéticas que não são rentáveis para a produção de carne.</br> </br> Isso significa que os incubatórios dedicam infraestrutura, espaço, energia e mão de obra especializada a um processo que não gera benefícios diretos. Além disso, essa prática apresenta desafios crescentes em termos de sustentabilidade, bem-estar animal e percepção pública.",
   "challenge.title": "Um desafio estrutural que pode ser resolvido",
   "cta.item1.description":
     "As tecnologias de sexagem <i>in ovo</i> solucionam essa problemática ao identificar o sexo do embrião ainda durante a incubação e removê-lo precocemente se for macho. Isso melhora a eficiência produtiva otimizando recursos, cria novas oportunidades de manejo, reduz o impacto ambiental, evita o sofrimento animal e fortalece o posicionamento do setor diante das novas exigências do mercado.",
